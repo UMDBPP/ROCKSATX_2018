@@ -1,0 +1,644 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V11.0
+! INFO-      
+! INFO-     Start of Translation: 7-NOV-2017  3:28:34 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\platelayoutCOMPDR.stp
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        platelayoutCOMPDR.stp
+! SUMMARY-  Date             2017-11-07T11:12:52-05:00
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v16
+! SUMMARY-  Orig_System      SIEMENS PLM Software NX 11.0
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_brep_shape_representation .........................:     25
+! SUMMARY-  advanced_face ..............................................:    891
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  application_protocol_definition ............................:      1
+! SUMMARY-  axis2_placement_3d .........................................:   1866
+! SUMMARY-  b_spline_curve_with_knots ..................................:     32
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    124
+! SUMMARY-  b_spline_surface_with_knots ................................:     11
+! SUMMARY-  cartesian_point ............................................:   5533
+! SUMMARY-  circle .....................................................:    935
+! SUMMARY-  closed_shell ...............................................:     26
+! SUMMARY-  conical_surface ............................................:      3
+! SUMMARY-  context_dependent_shape_representation .....................:     50
+! SUMMARY-  conversion_based_unit_and_length_unit ......................:      1
+! SUMMARY-  conversion_based_unit_and_plane_angle_unit .................:      1
+! SUMMARY-  cylindrical_surface ........................................:    329
+! SUMMARY-  dimensional_exponents ......................................:      2
+! SUMMARY-  direction ..................................................:   4627
+! SUMMARY-  edge_curve .................................................:   1986
+! SUMMARY-  edge_loop ..................................................:   1391
+! SUMMARY-  face_bound .................................................:    725
+! SUMMARY-  face_outer_bound ...........................................:    666
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     31
+! SUMMARY-  item_defined_transformation ................................:     50
+! SUMMARY-  length_measure_with_unit ...................................:      1
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:    895
+! SUMMARY-  manifold_solid_brep ........................................:     26
+! SUMMARY-  next_assembly_usage_occurrence .............................:     50
+! SUMMARY-  oriented_edge ..............................................:   3972
+! SUMMARY-  plane ......................................................:    424
+! SUMMARY-  plane_angle_measure_with_unit ..............................:      1
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:     31
+! SUMMARY-  product_context ............................................:     31
+! SUMMARY-  product_definition .........................................:     31
+! SUMMARY-  product_definition_context .................................:     31
+! SUMMARY-  product_definition_formation_with_specified_source .........:     31
+! SUMMARY-  product_definition_shape ...................................:     81
+! SUMMARY-  product_related_product_category ...........................:     31
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     50
+! SUMMARY-  shape_definition_representation ............................:     31
+! SUMMARY-  shape_representation .......................................:     31
+! SUMMARY-  shape_representation_relationship ..........................:     25
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  toroidal_surface ...........................................:    124
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     31
+! SUMMARY-  vector .....................................................:    895
+! SUMMARY-  vertex_point ...............................................:   1373
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          27506
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 7-NOV-2017 3:28:34 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:34 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3301
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\Electronics Box V2503
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:35 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3302
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\newerbox448
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:35 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3303
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\new sunshade363486
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:35 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3304
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\PayloadSA218485
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:36 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3305
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\BasePlate (1)484
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:36 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3318
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\holderhalf2464
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:36 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3323
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\holderhalf463
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:36 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3324
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\link_arm
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:36 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3325
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\shaker_disk
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:36 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3326
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\Shaker_motor
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:36 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3308
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\test_tube482
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:37 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3309
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\slide rod481
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:37 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3310
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\rod_holder480
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:37 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3311
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\siliconbacking
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:37 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3317
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\RasPi_Camera_Board489
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:37 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3319
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\End Effector V3479
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:37 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3320
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\Pitch Motor Housing V281478
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:37 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3321
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\Motor End Cover444
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:38 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3322
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\Central Housing445
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:38 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3306
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\bearing holder473
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:38 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3307
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\tubeholderbase2472
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:38 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3312
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3313
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\OVA5647_Pigtail486
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:38 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3314
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\OVA5647_IR-Glas485
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:39 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3315
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\OVA5647_Housing484
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:39 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3316
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\OVA5647483
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:39 PM
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\SCAMP To Scale_stp455
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:40 PM
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\OVA5647_FOV504
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:40 PM
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\PiCamwithsilicon
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:40 PM
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\tubeholder491
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:40 PM
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\shakerwithrods369492
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     8
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              8
+! STATUS-   Creating the UG part (Phase 3 of 3): 7-NOV-2017  3:28:40 PM
+! INFO-     Filing Part ..: C:\Users\jabbo\OneDrive\Documents\GitHub\ROCKSATX_2018\CAD\Mechanical\PDR\platelayoutCOMPDR_stp.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    26
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             26
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        26
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        26
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 7-NOV-2017  3:28:41 PM
+! INFO-      
