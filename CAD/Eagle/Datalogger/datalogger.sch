@@ -6195,17 +6195,9 @@ Source: AVX .. aphvc.pdf</description>
 <packages>
 <package name="USB_A">
 <hole x="-6.57" y="7.355" drill="2.3"/>
-<hole x="1" y="7.005" drill="0.92"/>
 <hole x="-6.57" y="1.675" drill="2.3"/>
 <hole x="6.57" y="7.355" drill="2.3"/>
 <hole x="6.57" y="1.675" drill="2.3"/>
-<hole x="3.5" y="7.005" drill="0.92"/>
-<hole x="1" y="4.385" drill="0.92"/>
-<hole x="-1" y="7.005" drill="0.92"/>
-<hole x="-1" y="4.385" drill="0.92"/>
-<hole x="-3.5" y="4.385" drill="0.92"/>
-<hole x="3.5" y="4.385" drill="0.92"/>
-<hole x="-3.5" y="7.005" drill="0.92"/>
 <wire x1="-8" y1="8.625" x2="8" y2="8.625" width="0.127" layer="21"/>
 <wire x1="8" y1="8.625" x2="8" y2="-8.625" width="0.127" layer="21"/>
 <wire x1="8" y1="-8.625" x2="-8" y2="-8.625" width="0.127" layer="21"/>
@@ -13345,6 +13337,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="38.1" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 <label x="33.02" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CONNECTOR" gate="G$1" pin="12"/>
+<wire x1="38.1" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
+<label x="33.02" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -13480,9 +13477,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="25.4" y="236.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CONNECTOR" gate="G$1" pin="25"/>
-<wire x1="48.26" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
-<label x="53.34" y="86.36" size="1.778" layer="95" xref="yes"/>
+<pinref part="CONNECTOR" gate="G$1" pin="24"/>
+<wire x1="48.26" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
+<label x="53.34" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DATA2_N" class="0">
@@ -13492,9 +13489,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="66.04" y="241.3" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CONNECTOR" gate="G$1" pin="24"/>
-<wire x1="48.26" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
-<label x="53.34" y="91.44" size="1.778" layer="95" xref="yes"/>
+<pinref part="CONNECTOR" gate="G$1" pin="25"/>
+<wire x1="48.26" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<label x="53.34" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DATA3_P" class="0">
@@ -13656,12 +13653,6 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="CONNECTOR" gate="G$1" pin="11"/>
 <wire x1="38.1" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="CONNECTOR" gate="G$1" pin="12"/>
-<wire x1="38.1" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
