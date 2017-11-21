@@ -105,3 +105,17 @@ int8_t open_fileidx(File &rootdir, File &entry, uint8_t _fileIdx){
   }
 }
 
+int8_t getFreeFilename(char *filename){
+
+  int n = 0;
+  
+  snprintf(filename, sizeof(filename), "data%03d.csv", n); // includes a three-digit sequence number in the file name
+  
+  while(SD.exists(filename)) {
+    n++;
+    snprintf(filename, sizeof(filename), "data%03d.csv", n);
+  }
+
+
+}
+
