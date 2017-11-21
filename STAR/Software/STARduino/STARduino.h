@@ -38,7 +38,6 @@
 /* Include project libraries */
 #include "src/CCSDS/CCSDS.h"
 #include "src/CCSDS/ccsds_utilities.h"
-#include "src/Queue/StaticQueue.h"
 
 /* Define aliases */
 // Software Reset Register
@@ -46,8 +45,6 @@
 
 // Serials
 #define SERIAL_DEBUG Serial // FIXME
-#define SERIAL_CTU Serial
-#define SERIAL_PI Serial // FIXME
 
 // Pins
 #define PIN_SDCHIPSELECT 53 // FIXME
@@ -55,33 +52,6 @@
 #define PIN_MOTORPWM 14 // FIXME
 #define PIN_BIAS 14 // FIXME
 #define PIN_CUTOFF 14 // FIXME
-
-// APIDs
-#define APID_STAR_CMD 100
-#define APID_STAR_FILELOADERR 110
-#define APID_STAR_TXTMSG 120
-#define APID_STAR_CMDRESP 130
-#define APID_STAR_STATUS 140
-#define APID_STAR_FILEINFO 150
-#define APID_STAR_FILECHKSUM 160
-#define APID_STAR_BEGIN_FILESEND 170
-#define APID_STAR_FILEDATA 171
-#define APID_STAR_END_FILESEND 172
-
-// FcnCodes
-#define FCNCODE_NOOP_CMD 9
-#define FCNCODE_LED_CMD 10
-#define FCNCODE_BIAS_CMD 11 
-#define FCNCODE_SHAKE_CMD 12
-#define FCNCODE_CUTOFF_CMD 13
-#define FCNCODE_TLM_CMD 14
-#define FCNCODE_QUEUE_CMD 15
-#define FCNCODE_RESETMET_CMD 16
-#define FCNCODE_FILEINFO_CMD 17
-#define FCNCODE_REBOOT_CMD 18
-#define FCNCODE_SENDFILE_CMD 19
-#define FCNCODE_DELFILE_CMD 20
-#define FCNCODE_RCVFILE_CMD 22
 
 // Filenames1
 #define FILENAME_INTERFACE_LOG "intf_log.txt"
