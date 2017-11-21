@@ -13,13 +13,17 @@
 #include "src/Sensors/MAX31725Temp.h"
 #include "src/Sensors/PowerSensors.h"
 #include "src/Sensors/BMX055.h"
-#include "src/Sensors/ChipCap2.h"
+#include "src/Sensors/CFF_ChipCap2.h"
+#include "src/Sensors/HoneywellPressure.h"
 #include "src/CCSDS/CCSDS.h"
 #include "src/CCSDS/ccsds_utilities.h"
 #include "EZGPIO.h"
 
-/* Define Parameters */
+/* Include project utilties */
+#include "Utility.h"
 
+/* Define Parameters */
+#define DESIRED_CYCLE_HZ 30
 
 /* Define aliases */
 // Software Reset Register

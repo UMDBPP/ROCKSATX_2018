@@ -81,31 +81,7 @@ void set_epoch(){
   millis_epoch = millis();
 }
 
-int8_t open_fileidx(File &rootdir, File &entry, uint8_t _fileIdx){
-
-  // move to beginning of directory structure
-  rootdir.seek(0);
-
-  // iterate through until we get to the file we want
-  for(uint8_t i = 0; i < _fileIdx; i++){
-    // open next file
-    entry =  rootdir.openNextFile();
-  }
-
-  if (entry){
-    if(entry.isDirectory()){
-      return ERROR_OPENFILEIDX_DIR;
-    }
-    else{
-      return ERROR_OPENFILEIDX_SUCCESS;
-    }
-  }
-  else{
-    return ERROR_OPENFILEIDX_NOEXIST;
-  }
-}
-
-int8_t getFreeFilename(char *filename){
+void getFreeFilename(char *filename){
 
   int n = 0;
   
