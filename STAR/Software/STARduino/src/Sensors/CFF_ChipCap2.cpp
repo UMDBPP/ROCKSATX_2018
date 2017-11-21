@@ -14,7 +14,7 @@
     GNU GPL, include above text in redistribution
 ***************************************************************************/
 
-#include <CFF_ChipCap2.h>
+#include "CFF_ChipCap2.h"
 #include <Wire.h>
 
 ////////////////////////////////////////
