@@ -1,0 +1,41 @@
+﻿IGES to UG
+! INFO-     NX V11.0 / IGES Specification 5.3
+! INFO-      
+! INFO-     Start of Translation: 24-NOV-2017  12:45:54 AM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\mike\Documents\GitHub\ROCKSATX_2018\TWEETER.IGS
+! INFO-     SolidWorks IGES file using analytic representation for surfaces         
+! SUMMARY-   
+! SUMMARY-  Summary of Supported IGES Entities in file
+! SUMMARY-   
+! SUMMARY-  Entity Type                    Count
+! SUMMARY-  -----------                    -----
+! SUMMARY-  Line (110/0).................:  5246
+! SUMMARY-  Circular Arc (100/0).........:   484
+! SUMMARY-  B-Spline Curve (126/0-4).....:  6150
+! SUMMARY-  Composite Curve (102/0)......:  2804
+! SUMMARY-  Surface of Rev (120/0).......:   112
+! SUMMARY-  B-Spline Surface (128/0-9)...:  1035
+! SUMMARY-  Curve of Surface (142/0).....:  1402
+! SUMMARY-  Trimmed Surface (144/0)......:  1147
+! SUMMARY-  Trans Matrix (124/0,1,10,12).:   340
+! SUMMARY-  Color Definition (314/0,1)...:   468
+! SUMMARY-                                 -----
+! SUMMARY-  Total                          19188
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 24-NOV-2017 12:45:54 AM
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 24-NOV-2017  12:45:55 AM
+! INFO-     Filing Part ..: C:\Users\mike\Documents\GitHub\ROCKSATX_2018\TWEETER_igs.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Part Attribute ..............:     8
+! SUMMARY-  Solid .......................:  1147
+! SUMMARY-                                 -----
+! SUMMARY-  Total                           1155
+! INFO-      
+! INFO-     End of Translation: 24-NOV-2017  12:46:02 AM
+! INFO-      
