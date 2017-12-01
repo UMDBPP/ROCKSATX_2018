@@ -1,7 +1,7 @@
 
 Top level assembly is: TERP_Payload.prt
 
-
+Do not commit files with random numbers at the end. Do not use spaces in filenames.
 
 To load assembly. 
 
