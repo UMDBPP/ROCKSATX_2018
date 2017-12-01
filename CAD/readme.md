@@ -1,3 +1,8 @@
+
+Top level assembly is: TERP_Payload.prt
+
+
+
 To load assembly. 
 
 * Open NX but not the assembly.
