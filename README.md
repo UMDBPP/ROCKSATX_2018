@@ -13,6 +13,9 @@ Space Characterization and Assessment of Manipulator Performance
 
 # Organization
 CAD/: All mechanical design files (CAD)
+
 Payload_Integration/:  Files documenting external interfaces of TERP
+
 SCAMP/: SCAMP-specific design files
+
 STAR/: STAR-specific design files
