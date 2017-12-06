@@ -6202,14 +6202,14 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="8" y1="8.625" x2="8" y2="-8.625" width="0.127" layer="21"/>
 <wire x1="8" y1="-8.625" x2="-8" y2="-8.625" width="0.127" layer="21"/>
 <wire x1="-8" y1="-8.625" x2="-8" y2="8.625" width="0.127" layer="21"/>
-<pad name="GND1" x="-3.5" y="7.005" drill="0.92" shape="long" rot="R90"/>
-<pad name="GND2" x="-3.5" y="4.385" drill="0.92" shape="offset" rot="R270"/>
+<pad name="VCC1" x="-3.5" y="7.005" drill="0.92" shape="long" rot="R90"/>
+<pad name="VCC2" x="-3.5" y="4.385" drill="0.92" shape="offset" rot="R270"/>
 <pad name="DATA+2" x="-1" y="4.385" drill="0.92" shape="offset" rot="R270"/>
 <pad name="DATA+1" x="-1" y="7.005" drill="0.92" shape="long" rot="R90"/>
 <pad name="DATA-1" x="1" y="7.005" drill="0.92" shape="long" rot="R90"/>
 <pad name="DATA-2" x="1" y="4.385" drill="0.92" shape="offset" rot="R270"/>
-<pad name="VCC2" x="3.5" y="4.385" drill="0.92" shape="offset" rot="R270"/>
-<pad name="VCC1" x="3.5" y="7.005" drill="0.92" shape="long" rot="R90"/>
+<pad name="GND2" x="3.5" y="4.385" drill="0.92" shape="offset" rot="R270"/>
+<pad name="GND1" x="3.5" y="7.005" drill="0.92" shape="long" rot="R90"/>
 <text x="-7.62" y="8.89" size="1.27" layer="21">&gt;NAME</text>
 </package>
 <package name="MICRO_SD_HINGED">
