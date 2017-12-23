@@ -11024,98 +11024,98 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="DATA1_P" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="DATA+1"/>
-<wire x1="30.48" y1="248.92" x2="25.4" y2="248.92" width="0.1524" layer="91"/>
-<label x="25.4" y="248.92" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="35.56" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
 <label x="33.02" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="DATA1_N" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="DATA-1"/>
 <wire x1="60.96" y1="254" x2="66.04" y2="254" width="0.1524" layer="91"/>
 <label x="66.04" y="254" size="1.016" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="DATA1_N" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="116.84" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
 <label x="33.02" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="DATA+1"/>
+<wire x1="30.48" y1="248.92" x2="25.4" y2="248.92" width="0.1524" layer="91"/>
+<label x="25.4" y="248.92" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="DATA2_P" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="DATA+2"/>
-<wire x1="30.48" y1="236.22" x2="25.4" y2="236.22" width="0.1524" layer="91"/>
-<label x="25.4" y="236.22" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="22"/>
 <wire x1="45.72" y1="78.74" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
 <label x="48.26" y="78.74" size="1.016" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="DATA2_N" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="DATA-2"/>
 <wire x1="60.96" y1="241.3" x2="66.04" y2="241.3" width="0.1524" layer="91"/>
 <label x="66.04" y="241.3" size="1.016" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="DATA2_N" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="23"/>
 <wire x1="45.72" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
 <label x="48.26" y="73.66" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="DATA+2"/>
+<wire x1="30.48" y1="236.22" x2="25.4" y2="236.22" width="0.1524" layer="91"/>
+<label x="25.4" y="236.22" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="DATA3_P" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="DATA+1"/>
-<wire x1="99.06" y1="248.92" x2="93.98" y2="248.92" width="0.1524" layer="91"/>
-<label x="93.98" y="248.92" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="17"/>
 <wire x1="45.72" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
 <label x="48.26" y="104.14" size="1.016" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="DATA3_N" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DATA-1"/>
 <wire x1="129.54" y1="254" x2="134.62" y2="254" width="0.1524" layer="91"/>
 <label x="134.62" y="254" size="1.016" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="DATA3_N" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="16"/>
 <wire x1="45.72" y1="109.22" x2="48.26" y2="109.22" width="0.1524" layer="91"/>
 <label x="48.26" y="109.22" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="DATA+1"/>
+<wire x1="99.06" y1="248.92" x2="93.98" y2="248.92" width="0.1524" layer="91"/>
+<label x="93.98" y="248.92" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="DATA4_P" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="DATA+2"/>
-<wire x1="99.06" y1="236.22" x2="93.98" y2="236.22" width="0.1524" layer="91"/>
-<label x="93.98" y="236.22" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="20"/>
 <wire x1="45.72" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
 <label x="48.26" y="88.9" size="1.016" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="DATA4_N" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DATA-2"/>
 <wire x1="129.54" y1="241.3" x2="134.62" y2="241.3" width="0.1524" layer="91"/>
 <label x="134.62" y="241.3" size="1.016" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="DATA4_N" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="21"/>
 <wire x1="45.72" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
 <label x="48.26" y="83.82" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="DATA+2"/>
+<wire x1="99.06" y1="236.22" x2="93.98" y2="236.22" width="0.1524" layer="91"/>
+<label x="93.98" y="236.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCK_FLASH" class="0">
