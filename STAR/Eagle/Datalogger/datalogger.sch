@@ -3736,12 +3736,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
 <pin name="GND1" x="-15.24" y="10.16" length="middle"/>
-<pin name="DATA+1" x="-15.24" y="5.08" length="middle"/>
+<pin name="DATA-1" x="-15.24" y="5.08" length="middle"/>
 <pin name="GND2" x="-15.24" y="-2.54" length="middle"/>
-<pin name="DATA+2" x="-15.24" y="-7.62" length="middle"/>
-<pin name="DATA-1" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="DATA-2" x="-15.24" y="-7.62" length="middle"/>
+<pin name="DATA+1" x="15.24" y="10.16" length="middle" rot="R180"/>
 <pin name="VCC1" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="DATA-2" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="DATA+2" x="15.24" y="-2.54" length="middle" rot="R180"/>
 <pin name="VCC2" x="15.24" y="-7.62" length="middle" rot="R180"/>
 </symbol>
 <symbol name="MICRO_SD">
@@ -10699,8 +10699,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-7.5" y1="-3.05" x2="-10" y2="3.05" width="0.127" layer="21"/>
 <text x="-8.89" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 <text x="-8.89" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="-12.25" y="0" drill="2.3"/>
-<hole x="12.25" y="0" drill="2.3"/>
+<circle x="-12.25" y="0" radius="1.15" width="0.127" layer="21"/>
+<circle x="12.25" y="0" radius="1.15" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -10924,11 +10924,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="114.3" y1="205.74" x2="114.3" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="13"/>
-<wire x1="35.56" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
-<label x="33.02" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -10978,6 +10973,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U$1" gate="G$1" pin="DAT0"/>
 <wire x1="50.8" y1="167.64" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
 <label x="45.72" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="13"/>
+<wire x1="35.56" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
+<label x="33.02" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCK_STAR" class="0">
@@ -11029,7 +11029,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="33.02" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="DATA-1"/>
+<pinref part="U$2" gate="G$1" pin="DATA+1"/>
 <wire x1="60.96" y1="254" x2="66.04" y2="254" width="0.1524" layer="91"/>
 <label x="66.04" y="254" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -11041,7 +11041,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="33.02" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="DATA+1"/>
+<pinref part="U$2" gate="G$1" pin="DATA-1"/>
 <wire x1="30.48" y1="248.92" x2="25.4" y2="248.92" width="0.1524" layer="91"/>
 <label x="25.4" y="248.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11053,7 +11053,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="48.26" y="78.74" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="DATA-2"/>
+<pinref part="U$2" gate="G$1" pin="DATA+2"/>
 <wire x1="60.96" y1="241.3" x2="66.04" y2="241.3" width="0.1524" layer="91"/>
 <label x="66.04" y="241.3" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -11065,7 +11065,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="48.26" y="73.66" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="DATA+2"/>
+<pinref part="U$2" gate="G$1" pin="DATA-2"/>
 <wire x1="30.48" y1="236.22" x2="25.4" y2="236.22" width="0.1524" layer="91"/>
 <label x="25.4" y="236.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11077,7 +11077,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="48.26" y="104.14" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="DATA-1"/>
+<pinref part="U$3" gate="G$1" pin="DATA+1"/>
 <wire x1="129.54" y1="254" x2="134.62" y2="254" width="0.1524" layer="91"/>
 <label x="134.62" y="254" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -11089,7 +11089,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="48.26" y="109.22" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="DATA+1"/>
+<pinref part="U$3" gate="G$1" pin="DATA-1"/>
 <wire x1="99.06" y1="248.92" x2="93.98" y2="248.92" width="0.1524" layer="91"/>
 <label x="93.98" y="248.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11101,7 +11101,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="48.26" y="88.9" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="DATA-2"/>
+<pinref part="U$3" gate="G$1" pin="DATA+2"/>
 <wire x1="129.54" y1="241.3" x2="134.62" y2="241.3" width="0.1524" layer="91"/>
 <label x="134.62" y="241.3" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -11113,7 +11113,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="48.26" y="83.82" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="DATA+2"/>
+<pinref part="U$3" gate="G$1" pin="DATA-2"/>
 <wire x1="99.06" y1="236.22" x2="93.98" y2="236.22" width="0.1524" layer="91"/>
 <label x="93.98" y="236.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
