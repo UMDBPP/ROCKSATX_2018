@@ -171,9 +171,9 @@
 <text x="6.0325" y="6.096" size="1.016" layer="21" font="vector" rot="R90">Port 1, B: 2</text>
 <text x="11.684" y="6.096" size="1.016" layer="21" font="vector" rot="R90">Port 1, T: 3</text>
 <text x="12.827" y="6.096" size="1.016" layer="21" font="vector" rot="R90">Port 1, T: 4</text>
-<hole x="8.5725" y="6.858" drill="2.65"/>
-<hole x="8.3185" y="-10.668" drill="2.65"/>
-<hole x="-3.175" y="21.6535" drill="2.65"/>
+<hole x="8.5725" y="6.858" drill="2.1"/>
+<hole x="8.3185" y="-10.668" drill="2.1"/>
+<hole x="-3.556" y="21.9075" drill="2.1"/>
 </plain>
 <libraries>
 <library name="CM_J30J">

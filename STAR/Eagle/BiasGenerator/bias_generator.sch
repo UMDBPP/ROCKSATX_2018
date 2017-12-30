@@ -6662,10 +6662,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C7" library="AR_passives" deviceset="CAPACITOR" device="2-J-LEAD" value="10uF"/>
 <part name="R6" library="resistor" deviceset="R-US_" device="R2512" value="1.5k"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="47000"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="3000"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="CM_J30J" deviceset="J30J-9" device="J30"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R2512" value="47k"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R2512" value="3k"/>
 </parts>
 <sheets>
 <sheet>
@@ -6677,6 +6677,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="203.2" y1="111.76" x2="274.32" y2="111.76" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="203.2" y1="111.76" x2="203.2" y2="210.82" width="0.1524" layer="97" style="shortdash"/>
 <text x="226.06" y="99.06" size="5.08" layer="97">Connector</text>
+<wire x1="203.2" y1="111.76" x2="203.2" y2="50.8" width="0.3048" layer="97" style="shortdash"/>
+<wire x1="203.2" y1="50.8" x2="274.32" y2="50.8" width="0.3048" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -6741,10 +6743,10 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="125.73" y="77.978" size="1.778" layer="96"/>
 </instance>
 <instance part="GND11" gate="1" x="121.92" y="73.66"/>
-<instance part="R7" gate="G$1" x="218.44" y="172.72" rot="R90"/>
-<instance part="R8" gate="G$1" x="218.44" y="157.48" rot="R90"/>
 <instance part="GND12" gate="1" x="218.44" y="144.78"/>
 <instance part="J1" gate="G$1" x="238.76" y="73.66"/>
+<instance part="R7" gate="G$1" x="218.44" y="172.72" rot="R90"/>
+<instance part="R8" gate="G$1" x="218.44" y="157.48" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6825,9 +6827,9 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="152.4" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -6958,9 +6960,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="132.08" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="177.8" x2="218.44" y2="182.88" width="0.1524" layer="91"/>
 <label x="218.44" y="182.88" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
@@ -6981,31 +6983,17 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="V_DIVIDE" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="162.56" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="165.1" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="165.1" x2="218.44" y2="167.64" width="0.1524" layer="91"/>
 <label x="228.6" y="165.1" size="1.016" layer="95" xref="yes"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
 <wire x1="233.68" y1="63.5" x2="231.14" y2="63.5" width="0.1524" layer="91"/>
 <label x="231.14" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="243.84" y1="71.12" x2="246.38" y2="71.12" width="0.1524" layer="91"/>
-<label x="246.38" y="71.12" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="243.84" y1="66.04" x2="246.38" y2="66.04" width="0.1524" layer="91"/>
-<label x="246.38" y="66.04" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
