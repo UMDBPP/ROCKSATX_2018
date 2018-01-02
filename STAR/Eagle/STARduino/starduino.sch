@@ -28115,15 +28115,10 @@ by R. Vogg  15.March.2002</description>
 <part name="R13" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="R22" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="R24" library="resistor" deviceset="R-US_" device="R0603" value="191k"/>
 <part name="JP1" library="CM_passives" deviceset="JUMPER-2" device="PTH"/>
 <part name="U$2" library="images" deviceset="SSL" device=".3IN_SILK"/>
 <part name="U$1" library="images" deviceset="STAR" device=""/>
 <part name="R28" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="4.7k"/>
-<part name="Q3" library="transistor-fet" deviceset="BSS8402DW" device=""/>
 <part name="Q2" library="transistor-fet" deviceset="BSS8402DW" device=""/>
 <part name="U16" library="CM_IC" deviceset="PCA9515A" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
@@ -28418,10 +28413,6 @@ by R. Vogg  15.March.2002</description>
 <instance part="R13" gate="G$1" x="231.14" y="185.42" rot="R270"/>
 <instance part="GND10" gate="1" x="533.4" y="375.92"/>
 <instance part="+3V9" gate="G$1" x="505.46" y="355.6"/>
-<instance part="+3V19" gate="G$1" x="436.88" y="314.96" rot="R90"/>
-<instance part="GND22" gate="1" x="459.74" y="297.18"/>
-<instance part="R22" gate="G$1" x="449.58" y="299.72" rot="R270"/>
-<instance part="R24" gate="G$1" x="469.9" y="307.34" rot="R270"/>
 <instance part="JP1" gate="A" x="43.18" y="365.76"/>
 <instance part="U$2" gate="G$1" x="546.1" y="48.26"/>
 <instance part="U$1" gate="G$1" x="528.32" y="40.64"/>
@@ -28429,8 +28420,6 @@ by R. Vogg  15.March.2002</description>
 <instance part="R28" gate="B" x="520.7" y="345.44" rot="R90"/>
 <instance part="R28" gate="C" x="391.16" y="304.8" rot="R90"/>
 <instance part="R28" gate="D" x="416.56" y="304.8" rot="R90"/>
-<instance part="Q3" gate="N" x="457.2" y="307.34"/>
-<instance part="Q3" gate="P" x="482.6" y="307.34"/>
 <instance part="Q2" gate="N" x="236.22" y="193.04"/>
 <instance part="Q2" gate="P" x="243.84" y="198.12"/>
 <instance part="U16" gate="G$1" x="515.62" y="388.62"/>
@@ -28685,16 +28674,6 @@ by R. Vogg  15.March.2002</description>
 <junction x="505.46" y="353.06"/>
 <pinref part="R28" gate="A" pin="2"/>
 <pinref part="R28" gate="B" pin="2"/>
-</segment>
-<segment>
-<pinref part="+3V19" gate="G$1" pin="+3V3"/>
-<wire x1="439.42" y1="314.96" x2="469.9" y2="314.96" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="314.96" x2="485.14" y2="314.96" width="0.1524" layer="91"/>
-<wire x1="485.14" y1="314.96" x2="485.14" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="469.9" y1="314.96" x2="469.9" y2="312.42" width="0.1524" layer="91"/>
-<junction x="469.9" y="314.96"/>
-<pinref part="Q3" gate="P" pin="S"/>
 </segment>
 <segment>
 <pinref part="U16" gate="G$1" pin="VCC"/>
@@ -28966,16 +28945,6 @@ by R. Vogg  15.March.2002</description>
 <pinref part="U16" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="459.74" y1="302.26" x2="459.74" y2="299.72" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="449.58" y1="294.64" x2="454.66" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="454.66" y1="294.64" x2="454.66" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="454.66" y1="302.26" x2="459.74" y2="302.26" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="N" pin="S"/>
-<junction x="459.74" y="302.26"/>
-</segment>
-<segment>
 <pinref part="C41" gate="G$1" pin="2"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
@@ -29024,11 +28993,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="30.48" y1="223.52" x2="20.32" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="223.52" x2="20.32" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="U$3" gate="G$1" pin="VCORE"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="228.6" x2="40.64" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="228.6" x2="33.02" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="228.6" x2="30.48" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="228.6" x2="30.48" y2="223.52" width="0.1524" layer="91"/>
 </segment>
@@ -29807,14 +29772,6 @@ by R. Vogg  15.March.2002</description>
 <label x="345.44" y="370.84" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="454.66" y1="304.8" x2="449.58" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="449.58" y1="304.8" x2="447.04" y2="304.8" width="0.1524" layer="91"/>
-<junction x="449.58" y="304.8"/>
-<label x="447.04" y="304.8" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="Q3" gate="N" pin="G"/>
-</segment>
-<segment>
 <pinref part="U16" gate="G$1" pin="EN"/>
 <wire x1="500.38" y1="381" x2="497.84" y2="381" width="0.1524" layer="91"/>
 <label x="497.84" y="381" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -29867,28 +29824,6 @@ by R. Vogg  15.March.2002</description>
 <wire x1="505.46" y1="340.36" x2="508" y2="340.36" width="0.1524" layer="91"/>
 <label x="508" y="340.36" size="1.016" layer="95" xref="yes"/>
 <pinref part="R28" gate="A" pin="1"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<wire x1="459.74" y1="312.42" x2="464.82" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="464.82" y1="312.42" x2="464.82" y2="299.72" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="464.82" y1="299.72" x2="469.9" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="299.72" x2="469.9" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="299.72" x2="480.06" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="480.06" y1="299.72" x2="480.06" y2="309.88" width="0.1524" layer="91"/>
-<junction x="469.9" y="299.72"/>
-<pinref part="Q3" gate="P" pin="G"/>
-<pinref part="Q3" gate="N" pin="D"/>
-</segment>
-</net>
-<net name="EXTERNAL_3V3" class="0">
-<segment>
-<wire x1="485.14" y1="302.26" x2="485.14" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="485.14" y1="299.72" x2="490.22" y2="299.72" width="0.1524" layer="91"/>
-<label x="490.22" y="299.72" size="1.016" layer="95" xref="yes"/>
-<pinref part="Q3" gate="P" pin="D"/>
 </segment>
 </net>
 <net name="EN_28V" class="0">
@@ -30162,6 +30097,13 @@ by R. Vogg  15.March.2002</description>
 <pinref part="J1" gate="G$1" pin="13"/>
 <wire x1="215.9" y1="81.28" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
 <label x="213.36" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="U$3" gate="G$1" pin="VCORE"/>
+<wire x1="43.18" y1="228.6" x2="40.64" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -154,10 +154,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="-12.954" y1="-15.24" x2="13.462" y2="-15.24" width="0" layer="20"/>
-<wire x1="13.462" y1="-15.24" x2="13.462" y2="40.64" width="0" layer="20"/>
-<wire x1="13.462" y1="40.64" x2="-12.954" y2="40.64" width="0" layer="20"/>
-<wire x1="-12.954" y1="40.64" x2="-12.954" y2="-15.24" width="0" layer="20"/>
+<wire x1="-11.684" y1="-15.24" x2="12.192" y2="-15.24" width="0" layer="20"/>
+<wire x1="13.462" y1="-13.97" x2="13.462" y2="39.37" width="0" layer="20"/>
+<wire x1="12.192" y1="40.64" x2="-11.684" y2="40.64" width="0" layer="20"/>
 <text x="-12.065" y="23.1775" size="1.016" layer="21" font="vector">Datalogger</text>
 <text x="-12.065" y="21.9075" size="1.016" layer="21" font="vector">v. 2</text>
 <text x="-12.065" y="20.32" size="1.016" layer="21" font="vector">12.2017</text>
@@ -174,6 +173,11 @@
 <hole x="8.5725" y="6.858" drill="2.1"/>
 <hole x="8.3185" y="-10.668" drill="2.1"/>
 <hole x="-3.556" y="21.9075" drill="2.1"/>
+<wire x1="-12.954" y1="39.37" x2="-12.954" y2="-13.97" width="0" layer="20"/>
+<wire x1="-11.684" y1="-15.24" x2="-12.954" y2="-13.97" width="0" layer="20" curve="-90"/>
+<wire x1="13.462" y1="-13.97" x2="12.192" y2="-15.24" width="0" layer="20" curve="-90"/>
+<wire x1="12.192" y1="40.64" x2="13.462" y2="39.37" width="0" layer="20" curve="-90"/>
+<wire x1="-11.684" y1="40.64" x2="-12.954" y2="39.37" width="0" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="CM_J30J">
@@ -3076,7 +3080,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U$1" library="NR_connectors" package="MICRO_SD_HINGED" value="MICRO_SD" x="-7.62" y="25.0825" smashed="yes" rot="R180"/>
 <element name="U$2" library="NR_connectors" package="USB_A" value="USB_A" x="-5.08" y="-5.715" smashed="yes" rot="R270"/>
 <element name="U$3" library="NR_connectors" package="USB_A" value="USB_A" x="-5.08" y="11.43" smashed="yes" rot="R270"/>
-<element name="U$4" library="images" package="SSL_SILK_.3IN" value="SSL.3IN_SILK" x="11.1125" y="-14.9225"/>
+<element name="U$4" library="images" package="SSL_SILK_.3IN" value="SSL.3IN_SILK" x="10.3505" y="-13.589"/>
 <element name="U$5" library="NR_IC" package="WSON" value="W25N01GV" x="8.89" y="-1.27" smashed="yes" rot="R90"/>
 </elements>
 <signals>
@@ -3111,16 +3115,17 @@ Please make sure your boards conform to these design rules.</description>
 <via x="-8.5725" y="28.2575" extent="1-16" drill="0.6"/>
 <via x="3.4925" y="37.7825" extent="1-16" drill="0.6"/>
 <polygon width="0.4064" layer="16">
-<vertex x="-12.7" y="40.64"/>
-<vertex x="15.24" y="40.64"/>
-<vertex x="15.24" y="-16.51"/>
+<vertex x="-12.7" y="41.91"/>
 <vertex x="-12.7" y="-16.51"/>
+<vertex x="12.7" y="-16.51"/>
+<vertex x="13.97" y="-16.51"/>
+<vertex x="13.97" y="41.91"/>
 </polygon>
 <polygon width="0.4064" layer="1">
-<vertex x="-15.24" y="41.91"/>
-<vertex x="13.97" y="41.91"/>
-<vertex x="13.97" y="-15.24"/>
-<vertex x="-15.24" y="-15.24"/>
+<vertex x="-13.97" y="41.91"/>
+<vertex x="-13.97" y="-15.24"/>
+<vertex x="16.51" y="-15.24"/>
+<vertex x="16.51" y="41.91"/>
 </polygon>
 </signal>
 <signal name="+3V3">

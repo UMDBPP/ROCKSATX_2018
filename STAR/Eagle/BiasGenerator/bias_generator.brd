@@ -126,8 +126,11 @@
 <wire x1="54.59" y1="30.4675" x2="0" y2="30.4675" width="0" layer="20"/>
 <wire x1="0" y1="30.4675" x2="0" y2="0.635" width="0" layer="20"/>
 <hole x="30.1625" y="27.305" drill="2.1"/>
-<hole x="1.5875" y="6.0325" drill="2.1"/>
+<hole x="1.9685" y="5.207" drill="2.1"/>
 <hole x="23.8125" y="5.08" drill="2.1"/>
+<text x="49.4665" y="23.114" size="1.016" layer="22" font="vector" rot="MR0">Bias Generator</text>
+<text x="49.4665" y="20.066" size="1.016" layer="22" font="vector" rot="MR0">Jan. 2017</text>
+<text x="49.4665" y="21.3995" size="1.016" layer="22" font="vector" rot="MR0">Rev. 1</text>
 </plain>
 <libraries>
 <library name="AR_passives">
