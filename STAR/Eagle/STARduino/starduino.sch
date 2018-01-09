@@ -28249,7 +28249,8 @@ by R. Vogg  15.March.2002</description>
 <wire x1="119.38" y1="193.04" x2="119.38" y2="170.18" width="0.3048" layer="97" style="shortdash"/>
 <text x="482.6" y="419.1" size="5.08" layer="97">I2C BUFFER</text>
 <text x="434.34" y="317.5" size="5.08" layer="97">EXTERNAL POWER KILL</text>
-<wire x1="190.5" y1="170.18" x2="289.56" y2="170.18" width="0.3048" layer="97" style="shortdash"/>
+<wire x1="190.5" y1="170.18" x2="243.84" y2="170.18" width="0.3048" layer="97" style="shortdash"/>
+<wire x1="243.84" y1="170.18" x2="289.56" y2="170.18" width="0.3048" layer="97" style="shortdash"/>
 <wire x1="119.38" y1="170.18" x2="190.246" y2="170.18" width="0.3048" layer="97" style="shortdash"/>
 <wire x1="190.246" y1="170.18" x2="190.5" y2="170.18" width="0.3048" layer="97" style="shortdash"/>
 <wire x1="5.08" y1="193.04" x2="5.08" y2="60.96" width="0.3048" layer="97" style="shortdash"/>
@@ -28261,6 +28262,9 @@ by R. Vogg  15.March.2002</description>
 <wire x1="553.72" y1="226.06" x2="553.72" y2="292.1" width="0.3048" layer="97" style="shortdash"/>
 <wire x1="190.246" y1="170.18" x2="190.246" y2="60.706" width="0.3048" layer="97" style="shortdash"/>
 <wire x1="190.246" y1="60.706" x2="5.08" y2="60.706" width="0.3048" layer="97" style="shortdash"/>
+<text x="197.358" y="157.226" size="5.08" layer="97">CONNECTOR</text>
+<wire x1="243.84" y1="170.18" x2="243.84" y2="60.96" width="0.3048" layer="97" style="shortdash"/>
+<wire x1="190.5" y1="60.96" x2="243.586" y2="60.96" width="0.3048" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="U6" gate="G$1" x="261.62" y="358.14"/>
@@ -30079,39 +30083,11 @@ by R. Vogg  15.March.2002</description>
 <label x="213.36" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="215.9" y1="96.52" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
-<label x="213.36" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="SD_STAR" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="9"/>
 <wire x1="213.36" y1="101.6" x2="215.9" y2="101.6" width="0.1524" layer="91"/>
 <label x="213.36" y="101.6" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="11"/>
-<wire x1="215.9" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
-<label x="213.36" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="12"/>
-<wire x1="215.9" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
-<label x="213.36" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="13"/>
-<wire x1="215.9" y1="81.28" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
-<label x="213.36" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">

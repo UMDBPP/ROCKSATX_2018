@@ -6999,14 +6999,6 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="9"/>
 <wire x1="243.84" y1="66.04" x2="246.38" y2="66.04" width="0.1524" layer="91"/>
-<label x="246.38" y="66.04" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="G" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="233.68" y1="73.66" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
-<label x="231.14" y="73.66" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
