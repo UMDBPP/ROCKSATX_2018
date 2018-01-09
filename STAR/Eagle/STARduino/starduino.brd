@@ -962,9 +962,13 @@ MDSGC</text>
 <hole x="7.874" y="32.512" drill="2.1"/>
 <hole x="48.768" y="36.1315" drill="2.1"/>
 <hole x="57.4675" y="2.0955" drill="2.1"/>
-<hole x="2.7305" y="2.0955" drill="2.1"/>
+<hole x="2.7305" y="2.032" drill="2.1"/>
 <wire x1="0" y1="1.27" x2="0" y2="36.83" width="0" layer="20"/>
 <wire x1="1.27" y1="38.1" x2="58.9915" y2="38.1" width="0" layer="20"/>
+<circle x="7.874" y="32.512" radius="1.9" width="0.4064" layer="51"/>
+<circle x="2.7305" y="2.032" radius="1.9" width="0.4064" layer="51"/>
+<circle x="48.768" y="36.1315" radius="1.9" width="0.4064" layer="51"/>
+<circle x="57.4675" y="2.0955" radius="1.9" width="0.4064" layer="51"/>
 </plain>
 <libraries>
 <library name="AR_mcu">
@@ -9870,7 +9874,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R23" library="resistor" package="R0603" value="4.7k" x="51.165125" y="5.318125" rot="R270"/>
 <element name="C37" library="resistor" package="C0603" value="100nF" x="49.911" y="5.87375" rot="R90"/>
 <element name="U4" library="NR_IC" package="SOIC-8" value="DS3231MZ+" x="24.3205" y="23.9395"/>
-<element name="B1" library="NR_connectors" package="CR1025" value="CR1025" x="39.671625" y="32.115125"/>
+<element name="B1" library="NR_connectors" package="CR1025" value="CR1025" x="39.671625" y="31.988125"/>
 <element name="C9" library="resistor" package="C0603" value="100nF" x="21.129625" y="31.90875" rot="R270"/>
 <element name="C5" library="resistor" package="C0603" value="1nF" x="24.971375" y="29.24175" rot="R180"/>
 <element name="U13" library="NR_IC" package="LGA-20" value="BMX055" x="38.9255" y="24.431625" rot="R270"/>
@@ -10998,12 +11002,12 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U4" pad="6"/>
 <contactref element="B1" pad="1"/>
 <contactref element="B1" pad="2"/>
-<wire x1="31.976625" y1="32.115125" x2="31.976625" y2="34.897625" width="0.381" layer="1"/>
+<wire x1="31.976625" y1="31.988125" x2="31.976625" y2="34.897625" width="0.381" layer="1"/>
 <wire x1="31.976625" y1="34.897625" x2="33.9725" y2="36.8935" width="0.381" layer="1"/>
 <wire x1="33.9725" y1="36.8935" x2="44.577" y2="36.8935" width="0.381" layer="1"/>
 <wire x1="44.577" y1="36.8935" x2="47.244" y2="34.2265" width="0.381" layer="1"/>
 <wire x1="47.244" y1="34.2265" x2="47.244" y2="32.23775" width="0.381" layer="1"/>
-<wire x1="47.244" y1="32.23775" x2="47.366625" y2="32.115125" width="0.381" layer="1"/>
+<wire x1="47.244" y1="32.23775" x2="47.366625" y2="31.988125" width="0.381" layer="1"/>
 <wire x1="25.821375" y1="29.24175" x2="24.9555" y2="28.375875" width="0.381" layer="1"/>
 <wire x1="24.9555" y1="28.375875" x2="24.9555" y2="26.7395" width="0.381" layer="1"/>
 <wire x1="25.821375" y1="29.24175" x2="25.821375" y2="30.266375" width="0.381" layer="1"/>
@@ -11014,7 +11018,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="29.5275" y1="31.9405" x2="32.385" y2="31.9405" width="0.381" layer="1"/>
 <wire x1="32.385" y1="31.9405" x2="32.512" y2="32.0675" width="0.381" layer="1"/>
 <wire x1="32.512" y1="32.0675" x2="32.02425" y2="32.0675" width="0.381" layer="1"/>
-<wire x1="32.02425" y1="32.0675" x2="31.976625" y2="32.115125" width="0.381" layer="1"/>
+<wire x1="32.02425" y1="32.0675" x2="31.976625" y2="31.988125" width="0.381" layer="1"/>
 </signal>
 <signal name="TX0">
 <contactref element="U6" pad="15"/>
@@ -11883,20 +11887,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="53.086" y1="8.255" x2="53.086" y2="13.04925" width="0.3048" layer="16"/>
 <wire x1="53.086" y1="13.04925" x2="55.84825" y2="15.8115" width="0.3048" layer="16"/>
 </signal>
-<signal name="D">
-<contactref element="J1" pad="10"/>
-</signal>
 <signal name="SD_STAR">
 <contactref element="J1" pad="9"/>
-</signal>
-<signal name="N$27">
-<contactref element="J1" pad="11"/>
-</signal>
-<signal name="N$32">
-<contactref element="J1" pad="12"/>
-</signal>
-<signal name="N$36">
-<contactref element="J1" pad="13"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$3" pad="P$5"/>

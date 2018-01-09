@@ -11154,60 +11154,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="33.02" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="F" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="35.56" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
-<label x="33.02" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="Y" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="35.56" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<label x="33.02" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="S" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="35.56" y1="91.44" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
-<label x="33.02" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="B" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="18"/>
 <wire x1="45.72" y1="99.06" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
-<label x="48.26" y="99.06" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="V" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="35.56" y1="86.36" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
-<label x="33.02" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="J" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="35.56" y1="96.52" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
-<label x="33.02" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="H" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="19"/>
 <wire x1="45.72" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
-<label x="48.26" y="93.98" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="R" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="14"/>
-<wire x1="45.72" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
-<label x="48.26" y="119.38" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

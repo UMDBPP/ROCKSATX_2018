@@ -77,13 +77,15 @@
 <wire x1="31.115" y1="0" x2="31.115" y2="10.414" width="0" layer="20"/>
 <wire x1="31.115" y1="10.414" x2="10.795" y2="10.414" width="0" layer="20"/>
 <wire x1="10.795" y1="10.414" x2="10.795" y2="0" width="0" layer="20"/>
-<hole x="13.97" y="8.255" drill="2.65"/>
-<hole x="27.559" y="8.255" drill="2.65"/>
+<hole x="13.97" y="8.255" drill="2.1"/>
+<hole x="27.559" y="8.255" drill="2.1"/>
 <text x="24.638" y="9.652" size="0.8128" layer="21" font="vector" rot="R270">Vin</text>
 <text x="18.542" y="7.112" size="0.8128" layer="21" font="vector" rot="R90">GND</text>
 <text x="12.192" y="0.508" size="0.8128" layer="21" font="vector" rot="R90">LED Board</text>
 <text x="11.43" y="8.89" size="0.8128" layer="21" font="vector" rot="R270">V1</text>
 <text x="30.734" y="0.508" size="0.8128" layer="21" font="vector" rot="R90">11-2017</text>
+<circle x="13.97" y="8.255" radius="1.9" width="0.4064" layer="51"/>
+<circle x="27.559" y="8.255" radius="1.9" width="0.4064" layer="51"/>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1457,13 +1459,13 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="resistor" package="C0603" value="" x="16.764" y="4.445" smashed="yes" rot="R90">
+<element name="C1" library="resistor" package="C0603" value=".1uF" x="16.764" y="4.445" smashed="yes" rot="R90">
 <attribute name="VALUE" x="18.669" y="3.81" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C2" library="resistor" package="C0603" value="" x="19.05" y="4.445" smashed="yes" rot="R270">
+<element name="C2" library="resistor" package="C0603" value="22uF" x="19.05" y="4.445" smashed="yes" rot="R270">
 <attribute name="VALUE" x="17.145" y="5.08" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R1" library="resistor" package="R0603" value="" x="21.209" y="1.27" smashed="yes">
+<element name="R1" library="resistor" package="R0603" value="4.75" x="21.209" y="1.27" smashed="yes">
 <attribute name="VALUE" x="20.574" y="-0.635" size="1.27" layer="27"/>
 </element>
 <element name="U$1" library="LED" package="TSOT-23" value="LT1937" x="24.511" y="4.064" smashed="yes"/>

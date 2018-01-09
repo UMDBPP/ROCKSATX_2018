@@ -6137,10 +6137,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$3" library="LED" deviceset="DB2J310" device=""/>
 <part name="U$4" library="LED" deviceset="CLA2A-WKW-CYBZ0343CT" device=""/>
 <part name="U$5" library="LED" deviceset="CLA2A-WKW-CYBZ0343CT" device=""/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="C1" library="resistor" deviceset="C-US" device="C0603"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="4.75"/>
+<part name="C1" library="resistor" deviceset="C-US" device="C0603" value=".1uF"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="C2" library="resistor" deviceset="C-US" device="C0603"/>
+<part name="C2" library="resistor" deviceset="C-US" device="C0603" value="22uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device=""/>
 </parts>
