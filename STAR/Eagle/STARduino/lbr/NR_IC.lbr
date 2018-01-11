@@ -230,6 +230,7 @@
 <smd name="P$8" x="-2" y="-1.905" dx="2" dy="0.8" layer="1"/>
 <circle x="0.635" y="-2.54" radius="0.200803125" width="0.127" layer="21"/>
 <text x="-2.54" y="3.81" size="1.27" layer="21">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="21">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -401,20 +402,24 @@
 <pin name="NC@2" x="15.24" y="-2.54" length="middle" direction="nc" rot="R180"/>
 <pin name="NC@3" x="15.24" y="-5.08" length="middle" direction="nc" rot="R180"/>
 <pin name="NC@4" x="15.24" y="-7.62" length="middle" direction="nc" rot="R180"/>
+<text x="-10.16" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="CHIP_CAP_2">
-<wire x1="-5.08" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
-<wire x1="15.24" y1="10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
-<pin name="SCL" x="20.32" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="SDA" x="20.32" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="RDY" x="20.32" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="ALM_LO" x="20.32" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="VCORE" x="-10.16" y="7.62" visible="pin" length="middle"/>
-<pin name="VSS" x="-10.16" y="2.54" visible="pin" length="middle"/>
-<pin name="VDD" x="-10.16" y="-2.54" visible="pin" length="middle"/>
-<pin name="ALM_HI" x="-10.16" y="-7.62" visible="pin" length="middle"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="SCL" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="SDA" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="RDY" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="ALM_LO" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="VCORE" x="-15.24" y="7.62" visible="pin" length="middle" direction="pwr"/>
+<pin name="VSS" x="-15.24" y="2.54" visible="pin" length="middle" direction="pwr"/>
+<pin name="VDD" x="-15.24" y="-2.54" visible="pin" length="middle" direction="pwr"/>
+<pin name="ALM_HI" x="-15.24" y="-7.62" visible="pin" length="middle"/>
+<text x="-10.16" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -643,7 +648,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CC2">
+<deviceset name="CC2" prefix="U">
 <gates>
 <gate name="G$1" symbol="CHIP_CAP_2" x="-5.08" y="10.16"/>
 </gates>

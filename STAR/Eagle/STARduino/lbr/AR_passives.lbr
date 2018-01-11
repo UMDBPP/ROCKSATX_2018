@@ -231,7 +231,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="FERRITE_BEAD" uservalue="yes">
+<deviceset name="FERRITE_BEAD" prefix="FB" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
 </gates>
