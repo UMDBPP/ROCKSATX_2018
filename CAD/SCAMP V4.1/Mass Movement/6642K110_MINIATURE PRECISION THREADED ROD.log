@@ -1,0 +1,86 @@
+﻿IGES to UG
+! INFO-     NX V11.0 / IGES Specification 5.3
+! INFO-      
+! INFO-     Start of Translation: 11-FEB-2018  3:18:15 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\Charlie Hanner\Documents\GitHub\ROCKSATX_2018\CAD\SCAMP V4.1\Mass Movement\6642K110_MINIATURE PRECISION THREADED ROD.IGS
+! INFO-     SolidWorks IGES file using analytic representation for surfaces         
+! SUMMARY-   
+! SUMMARY-  Summary of Supported IGES Entities in file
+! SUMMARY-   
+! SUMMARY-  Entity Type                    Count
+! SUMMARY-  -----------                    -----
+! SUMMARY-  Line (110/0).................:   346
+! SUMMARY-  Circular Arc (100/0).........:    12
+! SUMMARY-  B-Spline Curve (126/0-4).....:   946
+! SUMMARY-  Composite Curve (102/0)......:   192
+! SUMMARY-  Surface of Rev (120/0).......:    88
+! SUMMARY-  B-Spline Surface (128/0-9)...:     8
+! SUMMARY-  Curve of Surface (142/0).....:    96
+! SUMMARY-  Trimmed Surface (144/0)......:    96
+! SUMMARY-  Trans Matrix (124/0,1,10,12).:    12
+! SUMMARY-  Color Definition (314/0,1)...:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                           1797
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 11-FEB-2018 3:18:15 PM
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-FEB-2018  3:18:15 PM
+! INFO-     Degeneracy in b-spline entity 381 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.005929 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 501 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.005929 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 801 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.005929 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 921 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.005929 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 1161 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.005929 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 1251 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.005929 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 1311 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.932970 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 1437 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.942306 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 1647 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.942301 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 1707 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.942292 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 1947 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.942313 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 2067 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.942297 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 2307 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.942280 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 2427 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.942300 6.283185 0.000000
+! INFO-     Degeneracy in b-spline entity 3451 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         0.005964 6.283185 0.000000
+! INFO-     Filing Part ..: C:\Users\Charlie Hanner\Documents\GitHub\ROCKSATX_2018\CAD\SCAMP V4.1\Mass Movement\6642K110_MINIATURE PRECISION THREADED ROD_igs.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Part Attribute ..............:     8
+! SUMMARY-  Solid .......................:    96
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            104
+! INFO-      
+! INFO-     End of Translation: 11-FEB-2018  3:18:23 PM
+! INFO-      
