@@ -1,0 +1,124 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V11.0
+! INFO-      
+! INFO-     Start of Translation: 13-FEB-2018  12:26:52 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\Charlie Hanner\Documents\GitHub\ROCKSATX_2018\CAD\SCAMP V4.1\074.STEP
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP203
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        92196A074.step
+! SUMMARY-  Date             2014-02-14T19:15:45
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      SwSTEP 2.0
+! SUMMARY-  Orig_System      SolidWorks 2010
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim_lf
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_brep_shape_representation .........................:      1
+! SUMMARY-  advanced_face ..............................................:     56
+! SUMMARY-  application_context ........................................:      2
+! SUMMARY-  application_protocol_definition ............................:      2
+! SUMMARY-  approval ...................................................:      3
+! SUMMARY-  approval_date_time .........................................:      3
+! SUMMARY-  approval_person_organization ...............................:      3
+! SUMMARY-  approval_role ..............................................:      3
+! SUMMARY-  approval_status ............................................:      3
+! SUMMARY-  axis2_placement_3d .........................................:     76
+! SUMMARY-  b_spline_curve_with_knots ..................................:     13
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:     57
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:      2
+! SUMMARY-  calendar_date ..............................................:      5
+! SUMMARY-  cartesian_point ............................................:   1250
+! SUMMARY-  cc_design_approval .........................................:      3
+! SUMMARY-  cc_design_date_and_time_assignment .........................:      2
+! SUMMARY-  cc_design_person_and_organization_assignment ...............:      5
+! SUMMARY-  cc_design_security_classification ..........................:      1
+! SUMMARY-  circle .....................................................:     21
+! SUMMARY-  closed_shell ...............................................:      1
+! SUMMARY-  conical_surface ............................................:     13
+! SUMMARY-  conversion_based_unit_and_length_unit ......................:      1
+! SUMMARY-  coordinated_universal_time_offset ..........................:      5
+! SUMMARY-  cylindrical_surface ........................................:     31
+! SUMMARY-  date_and_time ..............................................:      5
+! SUMMARY-  date_time_role .............................................:      2
+! SUMMARY-  design_context .............................................:      1
+! SUMMARY-  dimensional_exponents ......................................:      1
+! SUMMARY-  direction ..................................................:    200
+! SUMMARY-  edge_curve .................................................:    139
+! SUMMARY-  edge_loop ..................................................:     58
+! SUMMARY-  face_bound .................................................:      2
+! SUMMARY-  face_outer_bound ...........................................:     56
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:      1
+! SUMMARY-  length_measure_with_unit ...................................:      1
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:     48
+! SUMMARY-  local_time .................................................:      5
+! SUMMARY-  manifold_solid_brep ........................................:      1
+! SUMMARY-  mechanical_context .........................................:      1
+! SUMMARY-  organization ...............................................:      1
+! SUMMARY-  oriented_edge ..............................................:    278
+! SUMMARY-  person .....................................................:      1
+! SUMMARY-  person_and_organization ....................................:      8
+! SUMMARY-  person_and_organization_role ...............................:      5
+! SUMMARY-  plane ......................................................:     10
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:      1
+! SUMMARY-  product_definition .........................................:      1
+! SUMMARY-  product_definition_formation_with_specified_source .........:      1
+! SUMMARY-  product_definition_shape ...................................:      1
+! SUMMARY-  product_related_product_category ...........................:      1
+! SUMMARY-  security_classification ....................................:      1
+! SUMMARY-  security_classification_level ..............................:      1
+! SUMMARY-  shape_definition_representation ............................:      1
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  uncertainty_measure_with_unit ..............................:      1
+! SUMMARY-  vector .....................................................:     48
+! SUMMARY-  vertex_point ...............................................:     87
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                           2533
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 13-FEB-2018 12:26:52 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-FEB-2018  12:26:52 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 11
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Charlie Hanner\Documents\GitHub\ROCKSATX_2018\CAD\SCAMP V4.1\074_step.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! INFO-      
+! INFO-     Total number of solids input for this translation       :         1
+! INFO-      
+! INFO-     Number of solids created without body validation faults :         1
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 13-FEB-2018  12:26:54 PM
+! INFO-      
