@@ -6655,8 +6655,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C6" library="AR_passives" deviceset="CAPACITOR" device="C0603" value="4.7pF"/>
 <part name="U2" library="AR_IC" deviceset="LT8330" device=""/>
 <part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="33k"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="52.6"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="AR_passives" deviceset="CAPACITOR" device="2-J-LEAD" value="10uF"/>

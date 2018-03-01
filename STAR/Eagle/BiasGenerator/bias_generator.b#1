@@ -1684,11 +1684,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="20.955" y="8.382" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="23.495" y="7.3025" size="1.27" layer="27"/>
 </element>
-<element name="R7" library="resistor" package="R0603" value="33k" x="24.13" y="13.6525" smashed="yes" rot="R180">
+<element name="R7" library="resistor" package="R0603" value="1M" x="24.13" y="13.6525" smashed="yes" rot="R180">
 <attribute name="NAME" x="27.559" y="14.0335" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="24.765" y="15.5575" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R8" library="resistor" package="R0603" value="52.6" x="24.13" y="11.43" smashed="yes">
+<element name="R8" library="resistor" package="R0603" value="1M" x="24.13" y="11.43" smashed="yes">
 <attribute name="NAME" x="22.479" y="10.7315" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="23.495" y="9.525" size="1.27" layer="27"/>
 </element>
