@@ -158,8 +158,8 @@
 <wire x1="13.462" y1="-13.97" x2="13.462" y2="39.37" width="0" layer="20"/>
 <wire x1="12.192" y1="40.64" x2="-11.684" y2="40.64" width="0" layer="20"/>
 <text x="-12.065" y="23.1775" size="1.016" layer="21" font="vector">Datalogger</text>
-<text x="-12.065" y="21.9075" size="1.016" layer="21" font="vector">v. 2</text>
-<text x="-12.065" y="20.32" size="1.016" layer="21" font="vector">1.2018</text>
+<text x="-12.065" y="21.9075" size="1.016" layer="21" font="vector">v. 2.1</text>
+<text x="-12.065" y="20.32" size="1.016" layer="21" font="vector">3.2018</text>
 <text x="8.636" y="20.447" size="1.016" layer="21" font="vector">1</text>
 <text x="5.715" y="29.845" size="1.016" layer="21" font="vector">2</text>
 <text x="5.3975" y="21.9075" size="1.016" layer="21" font="vector">3</text>
@@ -3130,6 +3130,7 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="16.51" y="-15.24"/>
 <vertex x="16.51" y="41.91"/>
 </polygon>
+<contactref element="J1" pad="18"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U$1" pad="VDD"/>
@@ -3160,7 +3161,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="1.397" y1="23.3925" x2="1.485" y2="29.4885" width="0.254" layer="1"/>
 <wire x1="1.485" y1="29.4885" x2="3.81" y2="31.75" width="0.254" layer="1"/>
 </signal>
-<signal name="MISO_STAR">
+<signal name="MOSI_STAR">
 <contactref element="U$1" pad="CMD"/>
 <contactref element="J1" pad="25"/>
 <wire x1="-5.42" y1="38.4825" x2="-5.3975" y2="38.46" width="0.254" layer="1"/>
@@ -3170,7 +3171,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="3.81" y1="33.9725" x2="4.445" y2="33.3375" width="0.254" layer="1"/>
 <wire x1="4.445" y1="33.3375" x2="4.445" y2="33.02" width="0.254" layer="1"/>
 </signal>
-<signal name="MOSI_STAR">
+<signal name="MISO_STAR">
 <contactref element="U$1" pad="DAT0"/>
 <contactref element="J1" pad="13"/>
 <wire x1="-1.02" y1="38.4825" x2="-1.02" y2="36.2625" width="0.254" layer="1"/>
@@ -3332,12 +3333,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="11.2395" y1="-5.715" x2="11.557" y2="-5.3975" width="0.254" layer="1"/>
 <wire x1="11.557" y1="-5.3975" x2="11.557" y2="17.907" width="0.254" layer="1"/>
 <wire x1="11.557" y1="17.907" x2="12.065" y2="18.415" width="0.254" layer="1"/>
-</signal>
-<signal name="B">
-<contactref element="J1" pad="18"/>
-</signal>
-<signal name="H">
-<contactref element="J1" pad="19"/>
 </signal>
 <signal name="N$10">
 <via x="-3.81" y="24.765" extent="1-16" drill="0.6"/>

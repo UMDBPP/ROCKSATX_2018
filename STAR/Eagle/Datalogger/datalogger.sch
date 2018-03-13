@@ -10924,6 +10924,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="114.3" y1="205.74" x2="114.3" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="18"/>
+<wire x1="45.72" y1="99.06" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
+<label x="48.26" y="99.06" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -10956,7 +10961,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="48.26" y="68.58" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MISO_STAR" class="0">
+<net name="MOSI_STAR" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="CMD"/>
 <wire x1="50.8" y1="187.96" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
@@ -10968,7 +10973,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="48.26" y="63.5" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MOSI_STAR" class="0">
+<net name="MISO_STAR" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="DAT0"/>
 <wire x1="50.8" y1="167.64" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
@@ -11152,18 +11157,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="121.92" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
 <label x="33.02" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="B" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="18"/>
-<wire x1="45.72" y1="99.06" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="H" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="19"/>
-<wire x1="45.72" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
