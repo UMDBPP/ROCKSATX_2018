@@ -10,8 +10,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'Pi_Heat_Block.stp',
-/* time_stamp */ '2018-01-10T14:44:56-05:00',
+/* name */ 'HeatBlockforPi.stp',
+/* time_stamp */ '2018-03-29T09:03:22-04:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v16',
@@ -904,7 +904,7 @@ DATA;
 GEOMETRIC_REPRESENTATION_CONTEXT(3)
 GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#880))
 GLOBAL_UNIT_ASSIGNED_CONTEXT((#885,#882,#881))
-REPRESENTATION_CONTEXT('Pi_Heat_Block','TOP_LEVEL_ASSEMBLY_PART')
+REPRESENTATION_CONTEXT('HeatBlockforPi','TOP_LEVEL_ASSEMBLY_PART')
 );
 #880=UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(7.8740157480315E-7),#885,
 'DISTANCE_ACCURACY_VALUE','Maximum Tolerance applied to model');
