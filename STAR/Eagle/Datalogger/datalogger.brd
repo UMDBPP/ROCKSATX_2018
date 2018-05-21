@@ -158,7 +158,7 @@
 <wire x1="13.462" y1="-13.97" x2="13.462" y2="39.37" width="0" layer="20"/>
 <wire x1="12.192" y1="40.64" x2="-11.684" y2="40.64" width="0" layer="20"/>
 <text x="-12.065" y="23.1775" size="1.016" layer="21" font="vector">Datalogger</text>
-<text x="-12.065" y="21.9075" size="1.016" layer="21" font="vector">v. 2.2</text>
+<text x="-12.065" y="21.9075" size="1.016" layer="21" font="vector">v. 3</text>
 <text x="-12.065" y="20.32" size="1.016" layer="21" font="vector">5.2018</text>
 <text x="8.636" y="20.447" size="1.016" layer="21" font="vector">1</text>
 <text x="5.715" y="29.845" size="1.016" layer="21" font="vector">2</text>
