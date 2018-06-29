@@ -1,12 +1,18 @@
 ﻿UG to STEP
 ! INFO-     NX STEP AP214 - V11.0
 ! INFO-      
-! INFO-     Start of Translation: 8-JUN-2018  5:58:51 AM
+! INFO-     Start of Translation: 10-JUN-2018  12:00:55 AM
 ! INFO-      
-! STATUS-   Converting Part: C:\UMD\BPP\ROCKSAT X\2018\ROCKSATX_2018\CAD\new_sunshade.prt
+! STATUS-   Converting Part: C:\UMD\BPP\ROCKSAT X\2018\ROCKSATX_2018\CAD\BasePlate.prt
+! ERROR-     
+! ERROR-    IM0541 The following error message(s) were returned from UG
+! ERROR-           at part_load:
+! ERROR-     
+! ERROR-           106_step.prt
+! ERROR-             -Failed to find file using current search options, part left unloaded
 ! SUMMARY-   
 ! SUMMARY-  Summary of Unigraphics Part Entities
-! SUMMARY-  For Part: C:\UMD\BPP\ROCKSAT X\2018\ROCKSATX_2018\CAD\new_sunshade.prt 
+! SUMMARY-  For Part: C:\UMD\BPP\ROCKSAT X\2018\ROCKSATX_2018\CAD\BasePlate.prt 
 ! SUMMARY-  Entities Processed             Count
 ! SUMMARY-  ------------------             -----
 ! SUMMARY-  Part Attribute ..............:     1
@@ -16,11 +22,11 @@
 ! SUMMARY-  Parameter ...................:     1
 ! SUMMARY-  Matrix ......................:     1
 ! SUMMARY-  Solid .......................:
-! SUMMARY-     Body .....................:     1
+! SUMMARY-     Body .....................:     4
 ! SUMMARY-                                 -----
-! SUMMARY-  Total                              8
+! SUMMARY-  Total                             11
 ! STATUS-    
-! STATUS-   Converting to Output Form (Phase 2 of 3): 8-JUN-2018 5:59:00 AM
+! STATUS-   Converting to Output Form (Phase 2 of 3): 10-JUN-2018 12:00:59 AM
 ! STATUS-    
 ! STATUS-    
 ! STATUS-   Generating UG geometry and placing them in parts
@@ -30,8 +36,8 @@
 ! SUMMARY-   
 ! SUMMARY-  Description      Unknown
 ! SUMMARY-  Imp_Level        1
-! SUMMARY-  File_Name        new_sunshade.stp
-! SUMMARY-  Date             2018-06-08T05:59:00-04:00
+! SUMMARY-  File_Name        BasePlate.stp
+! SUMMARY-  Date             2018-06-10T00:00:59-04:00
 ! SUMMARY-  Author           Unknown
 ! SUMMARY-  Organization     Unknown
 ! SUMMARY-  Pre_Version      ST-DEVELOPER v16
@@ -43,29 +49,34 @@
 ! SUMMARY-  Entity Type                                                   Count
 ! SUMMARY-  -----------                                                   ------
 ! SUMMARY-  advanced_brep_shape_representation .........................:      1
-! SUMMARY-  advanced_face ..............................................:     73
+! SUMMARY-  advanced_face ..............................................:    452
 ! SUMMARY-  application_context ........................................:      1
 ! SUMMARY-  application_protocol_definition ............................:      1
-! SUMMARY-  axis2_placement_3d .........................................:    154
-! SUMMARY-  cartesian_point ............................................:    386
-! SUMMARY-  circle .....................................................:     80
-! SUMMARY-  closed_shell ...............................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:   1035
+! SUMMARY-  b_spline_curve_with_knots ..................................:     10
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:     14
+! SUMMARY-  brep_with_voids ............................................:      1
+! SUMMARY-  cartesian_point ............................................:   2047
+! SUMMARY-  circle .....................................................:    592
+! SUMMARY-  closed_shell ...............................................:      6
 ! SUMMARY-  conversion_based_unit_and_length_unit ......................:      1
 ! SUMMARY-  conversion_based_unit_and_plane_angle_unit .................:      1
-! SUMMARY-  cylindrical_surface ........................................:     40
+! SUMMARY-  cylindrical_surface ........................................:    283
 ! SUMMARY-  dimensional_exponents ......................................:      2
-! SUMMARY-  direction ..................................................:    400
-! SUMMARY-  edge_curve .................................................:    172
-! SUMMARY-  edge_loop ..................................................:    194
-! SUMMARY-  face_bound .................................................:    166
-! SUMMARY-  face_outer_bound ...........................................:     28
+! SUMMARY-  direction ..................................................:   2154
+! SUMMARY-  edge_curve .................................................:    690
+! SUMMARY-  edge_loop ..................................................:   1064
+! SUMMARY-  ellipse ....................................................:      4
+! SUMMARY-  face_bound .................................................:    968
+! SUMMARY-  face_outer_bound ...........................................:     96
 ! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:      1
 ! SUMMARY-  length_measure_with_unit ...................................:      1
 ! SUMMARY-  length_unit_and_si_unit ....................................:      1
-! SUMMARY-  line .......................................................:     92
-! SUMMARY-  manifold_solid_brep ........................................:      1
-! SUMMARY-  oriented_edge ..............................................:    344
-! SUMMARY-  plane ......................................................:     33
+! SUMMARY-  line .......................................................:     84
+! SUMMARY-  manifold_solid_brep ........................................:      3
+! SUMMARY-  oriented_closed_shell ......................................:      2
+! SUMMARY-  oriented_edge ..............................................:   1380
+! SUMMARY-  plane ......................................................:    151
 ! SUMMARY-  plane_angle_measure_with_unit ..............................:      1
 ! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
 ! SUMMARY-  product ....................................................:      1
@@ -79,34 +90,41 @@
 ! SUMMARY-  shape_representation .......................................:      1
 ! SUMMARY-  shape_representation_relationship ..........................:      1
 ! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  toroidal_surface ...........................................:      4
 ! SUMMARY-  uncertainty_measure_with_unit ..............................:      1
-! SUMMARY-  vector .....................................................:     92
-! SUMMARY-  vertex_point ...............................................:    140
+! SUMMARY-  vector .....................................................:     84
+! SUMMARY-  vertex_point ...............................................:    612
 ! SUMMARY-                                                               -------
-! SUMMARY-  Total                                                           2420
+! SUMMARY-  Total                                                          11760
 ! INFO-      
 ! INFO-     User interface/default file
 ! INFO-     Bspline aprx. value in effect for this translation : 2.540000e-002 mm
 ! INFO-      
-! INFO-     Total number of solids input for this translation  :       1
+! INFO-     Total number of solids input for this translation  :       4
 ! INFO-      
-! INFO-     Number of solids processed without problems        :       1
+! INFO-     Number of solids processed without problems        :       4
 ! INFO-      
 ! INFO-     Number of solids with problems output as sheets    :       0
 ! INFO-      
 ! INFO-     Number of solids not processed                     :       0
 ! INFO-      
-! INFO-     End of Translation: 8-JUN-2018  5:59:00 AM
+! INFO-     End of Translation: 10-JUN-2018  12:00:59 AM
 ! INFO-      
 UG to STEP
 ! INFO-     NX STEP AP214 - V11.0
 ! INFO-      
-! INFO-     Start of Translation: 8-JUN-2018  5:27:16 PM
+! INFO-     Start of Translation: 10-JUN-2018  3:01:34 AM
 ! INFO-      
-! STATUS-   Converting Part: C:\UMD\BPP\ROCKSAT X\2018\ROCKSATX_2018\CAD\new_sunshade.prt
+! STATUS-   Converting Part: C:\UMD\BPP\ROCKSAT X\2018\ROCKSATX_2018\CAD\BasePlate.prt
+! ERROR-     
+! ERROR-    IM0541 The following error message(s) were returned from UG
+! ERROR-           at part_load:
+! ERROR-     
+! ERROR-           106_step.prt
+! ERROR-             -Failed to find file using current search options, part left unloaded
 ! SUMMARY-   
 ! SUMMARY-  Summary of Unigraphics Part Entities
-! SUMMARY-  For Part: C:\UMD\BPP\ROCKSAT X\2018\ROCKSATX_2018\CAD\new_sunshade.prt 
+! SUMMARY-  For Part: C:\UMD\BPP\ROCKSAT X\2018\ROCKSATX_2018\CAD\BasePlate.prt 
 ! SUMMARY-  Entities Processed             Count
 ! SUMMARY-  ------------------             -----
 ! SUMMARY-  Part Attribute ..............:     1
@@ -116,11 +134,11 @@ UG to STEP
 ! SUMMARY-  Parameter ...................:     1
 ! SUMMARY-  Matrix ......................:     1
 ! SUMMARY-  Solid .......................:
-! SUMMARY-     Body .....................:     7
+! SUMMARY-     Body .....................:     4
 ! SUMMARY-                                 -----
-! SUMMARY-  Total                             14
+! SUMMARY-  Total                             11
 ! STATUS-    
-! STATUS-   Converting to Output Form (Phase 2 of 3): 8-JUN-2018 5:27:18 PM
+! STATUS-   Converting to Output Form (Phase 2 of 3): 10-JUN-2018 3:01:35 AM
 ! STATUS-    
 ! STATUS-    
 ! STATUS-   Generating UG geometry and placing them in parts
@@ -130,8 +148,8 @@ UG to STEP
 ! SUMMARY-   
 ! SUMMARY-  Description      Unknown
 ! SUMMARY-  Imp_Level        1
-! SUMMARY-  File_Name        new_sunshade.stp
-! SUMMARY-  Date             2018-06-08T17:27:18-04:00
+! SUMMARY-  File_Name        BasePlate.stp
+! SUMMARY-  Date             2018-06-10T03:01:35-04:00
 ! SUMMARY-  Author           Unknown
 ! SUMMARY-  Organization     Unknown
 ! SUMMARY-  Pre_Version      ST-DEVELOPER v16
@@ -143,29 +161,34 @@ UG to STEP
 ! SUMMARY-  Entity Type                                                   Count
 ! SUMMARY-  -----------                                                   ------
 ! SUMMARY-  advanced_brep_shape_representation .........................:      1
-! SUMMARY-  advanced_face ..............................................:     93
+! SUMMARY-  advanced_face ..............................................:    458
 ! SUMMARY-  application_context ........................................:      1
 ! SUMMARY-  application_protocol_definition ............................:      1
-! SUMMARY-  axis2_placement_3d .........................................:    174
-! SUMMARY-  cartesian_point ............................................:    454
-! SUMMARY-  circle .....................................................:     80
-! SUMMARY-  closed_shell ...............................................:      7
+! SUMMARY-  axis2_placement_3d .........................................:   1049
+! SUMMARY-  b_spline_curve_with_knots ..................................:     10
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:     14
+! SUMMARY-  brep_with_voids ............................................:      1
+! SUMMARY-  cartesian_point ............................................:   2069
+! SUMMARY-  circle .....................................................:    600
+! SUMMARY-  closed_shell ...............................................:      6
 ! SUMMARY-  conversion_based_unit_and_length_unit ......................:      1
 ! SUMMARY-  conversion_based_unit_and_plane_angle_unit .................:      1
-! SUMMARY-  cylindrical_surface ........................................:     40
+! SUMMARY-  cylindrical_surface ........................................:    287
 ! SUMMARY-  dimensional_exponents ......................................:      2
-! SUMMARY-  direction ..................................................:    468
-! SUMMARY-  edge_curve .................................................:    200
-! SUMMARY-  edge_loop ..................................................:    214
-! SUMMARY-  face_bound .................................................:    166
-! SUMMARY-  face_outer_bound ...........................................:     48
+! SUMMARY-  direction ..................................................:   2182
+! SUMMARY-  edge_curve .................................................:    698
+! SUMMARY-  edge_loop ..................................................:   1080
+! SUMMARY-  ellipse ....................................................:      4
+! SUMMARY-  face_bound .................................................:    984
+! SUMMARY-  face_outer_bound ...........................................:     96
 ! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:      1
 ! SUMMARY-  length_measure_with_unit ...................................:      1
 ! SUMMARY-  length_unit_and_si_unit ....................................:      1
-! SUMMARY-  line .......................................................:    120
-! SUMMARY-  manifold_solid_brep ........................................:      7
-! SUMMARY-  oriented_edge ..............................................:    400
-! SUMMARY-  plane ......................................................:     53
+! SUMMARY-  line .......................................................:     84
+! SUMMARY-  manifold_solid_brep ........................................:      3
+! SUMMARY-  oriented_closed_shell ......................................:      2
+! SUMMARY-  oriented_edge ..............................................:   1396
+! SUMMARY-  plane ......................................................:    153
 ! SUMMARY-  plane_angle_measure_with_unit ..............................:      1
 ! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
 ! SUMMARY-  product ....................................................:      1
@@ -179,22 +202,23 @@ UG to STEP
 ! SUMMARY-  shape_representation .......................................:      1
 ! SUMMARY-  shape_representation_relationship ..........................:      1
 ! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  toroidal_surface ...........................................:      4
 ! SUMMARY-  uncertainty_measure_with_unit ..............................:      1
-! SUMMARY-  vector .....................................................:    120
-! SUMMARY-  vertex_point ...............................................:    160
+! SUMMARY-  vector .....................................................:     84
+! SUMMARY-  vertex_point ...............................................:    620
 ! SUMMARY-                                                               -------
-! SUMMARY-  Total                                                           2828
+! SUMMARY-  Total                                                          11908
 ! INFO-      
 ! INFO-     User interface/default file
 ! INFO-     Bspline aprx. value in effect for this translation : 2.540000e-002 mm
 ! INFO-      
-! INFO-     Total number of solids input for this translation  :       7
+! INFO-     Total number of solids input for this translation  :       4
 ! INFO-      
-! INFO-     Number of solids processed without problems        :       7
+! INFO-     Number of solids processed without problems        :       4
 ! INFO-      
 ! INFO-     Number of solids with problems output as sheets    :       0
 ! INFO-      
 ! INFO-     Number of solids not processed                     :       0
 ! INFO-      
-! INFO-     End of Translation: 8-JUN-2018  5:27:19 PM
+! INFO-     End of Translation: 10-JUN-2018  3:01:35 AM
 ! INFO-      
