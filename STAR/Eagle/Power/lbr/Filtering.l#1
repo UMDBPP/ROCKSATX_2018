@@ -285,7 +285,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1410J0500404MXTE03" prefix="C">
+<deviceset name="1410J0500404MXTE03">
 <gates>
 <gate name="G$1" symbol="4PRONG_CAP" x="0" y="0"/>
 </gates>

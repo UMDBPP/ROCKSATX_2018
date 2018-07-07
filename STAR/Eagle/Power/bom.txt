@@ -1,0 +1,23 @@
+Partlist exported from C:/UMD/BPP/ROCKSAT X/2018/ROCKSATX_2018/STAR/Eagle/Power/Power.sch at 7/7/2018 15:11
+
+Qty Value              Device             Package  Parts                   Description                
+3   .1 uF              C-USC0603          C0603    C7, C8, C9              CAPACITOR, American symbol 
+3   .18 uF             C-USC0603          C0603    C10, C11, C12           CAPACITOR, American symbol 
+3   10 uF              C-USC0603          C0603    C13, C14, C15           CAPACITOR, American symbol 
+3   10 uF              C-USC1210          C1210    C1, C2, C3              CAPACITOR, American symbol 
+3   13.3k              R-US_R0603         R0603    R5, R7, R9              RESISTOR, American symbol  
+5   1410J0500404MXTE03 1410J0500404MXTE03 1410     U$3, U$4, U$5, U$6, U$7                            
+1   199.5k             R-US_R0603         R0603    R4                      RESISTOR, American symbol  
+5   1nF                C-USC0603          C0603    C17, C19, C21, C23, C25 CAPACITOR, American symbol 
+3   2.2 uF             C-USC1210          C1210    C4, C5, C6              CAPACITOR, American symbol 
+3   23.2k              R-US_R0603         R0603    R1, R2, R3              RESISTOR, American symbol  
+1   3.7u               7443551370         1365     L3                                                 
+1   45.2k              R-US_R0603         R0603    R8                      RESISTOR, American symbol  
+1   5.5u               744325550          1050     L2                                                 
+5   744029000068       744029000068       2813     L4, L5, L6, L7, L8                                 
+1   75.4k              R-US_R0603         R0603    R6                      RESISTOR, American symbol  
+1   9.7u               744314101          7050     L1                                                 
+2   DFT7160-105B       DFT7160-105B       DFT7160  U$1, U$2                                           
+3   DO-214AC           DO-214AC           DO-214AC D1, D2, D3                                         
+1   J30J-25            J30J-25            ZKN-25   J1                                                 
+3   LMR16020           LMR16020           SO8      U1, U2, U3                                         
