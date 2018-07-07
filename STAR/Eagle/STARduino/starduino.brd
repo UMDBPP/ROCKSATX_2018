@@ -10402,9 +10402,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="39.243" y1="3.556" x2="39.243" y2="1.27" width="0.3048" layer="1"/>
 <wire x1="39.243" y1="1.27" x2="39.37" y2="1.143" width="0.3048" layer="1"/>
 </signal>
-<signal name="I_SENSE" class="2">
-<contactref element="U2" pad="10"/>
-</signal>
 <signal name="MISO">
 <contactref element="U2" pad="21"/>
 <wire x1="35.1663" y1="17.9451" x2="33.5026" y2="17.9451" width="0.3048" layer="1"/>
@@ -10422,12 +10419,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="35.7505" y1="8.6995" x2="37.5285" y2="6.9215" width="0.3048" layer="16"/>
 <wire x1="37.5285" y1="6.9215" x2="49.657" y2="6.9215" width="0.3048" layer="16"/>
 <wire x1="49.657" y1="6.9215" x2="51.435" y2="8.6995" width="0.3048" layer="16"/>
-</signal>
-<signal name="TX1">
-<contactref element="U2" pad="27"/>
-</signal>
-<signal name="RX1">
-<contactref element="U2" pad="28"/>
 </signal>
 <signal name="NFAULT">
 <contactref element="U9" pad="7"/>
@@ -10654,12 +10645,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="35.2425" y1="8.4455" x2="37.2745" y2="6.4135" width="0.3048" layer="16"/>
 <wire x1="37.2745" y1="6.4135" x2="49.8475" y2="6.4135" width="0.3048" layer="16"/>
 </signal>
-<signal name="PB22">
-<contactref element="U2" pad="37"/>
-</signal>
-<signal name="PB23">
-<contactref element="U2" pad="38"/>
-</signal>
 <signal name="N$6">
 <contactref element="U3" pad="3"/>
 <contactref element="R3" pad="1"/>
@@ -10704,17 +10689,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="32.512" y1="32.0675" x2="32.02425" y2="32.0675" width="0.381" layer="1"/>
 <wire x1="32.02425" y1="32.0675" x2="31.976625" y2="31.988125" width="0.381" layer="1"/>
 </signal>
-<signal name="TX0">
-<contactref element="U2" pad="15"/>
-</signal>
-<signal name="RX0">
-<contactref element="U2" pad="16"/>
-</signal>
 <signal name="NSLEEP">
 <contactref element="U9" pad="14"/>
-</signal>
-<signal name="STEPFREQ">
-<contactref element="U2" pad="13"/>
 </signal>
 <signal name="NENBL">
 <contactref element="U9" pad="8"/>
@@ -11080,26 +11056,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="28.067" y1="13.97" x2="26.6954" y2="13.97" width="0.3048" layer="1"/>
 <wire x1="26.6954" y1="13.97" x2="26.6827" y2="13.9573" width="0.3048" layer="1"/>
 </signal>
-<signal name="TX2">
-<contactref element="U2" pad="29"/>
-</signal>
-<signal name="RX2">
-<contactref element="U2" pad="30"/>
-</signal>
 <signal name="DEC0">
 <contactref element="U9" pad="15"/>
 </signal>
 <signal name="DEC1">
 <contactref element="U9" pad="13"/>
-</signal>
-<signal name="LED_CTRL">
-<contactref element="U2" pad="14"/>
-</signal>
-<signal name="SYNC">
-<contactref element="U2" pad="24"/>
-</signal>
-<signal name="PI_KILL">
-<contactref element="U2" pad="25"/>
 </signal>
 <signal name="SCL_BUFF">
 <contactref element="R7" pad="2"/>
@@ -11120,9 +11081,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="19.7485" y1="6.0325" x2="18.9865" y2="6.7945" width="0.381" layer="1"/>
 <wire x1="18.9865" y1="6.7945" x2="18.9865" y2="7.827" width="0.381" layer="1"/>
 <wire x1="18.9865" y1="7.827" x2="18.96125" y2="7.85225" width="0.381" layer="1"/>
-</signal>
-<signal name="EN_28V">
-<contactref element="U2" pad="41"/>
 </signal>
 <signal name="V_SENSE">
 <contactref element="U2" pad="3"/>
@@ -11148,12 +11106,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="46.48925" y1="4.57925" x2="45.847" y2="3.937" width="0.3048" layer="1"/>
 <wire x1="47.037625" y1="5.15075" x2="47.037625" y2="5.295" width="0.381" layer="1"/>
 <wire x1="47.037625" y1="5.295" x2="48.514" y2="6.771375" width="0.381" layer="1"/>
-</signal>
-<signal name="USB_D_P">
-<contactref element="U2" pad="34"/>
-</signal>
-<signal name="USB_D_N">
-<contactref element="U2" pad="33"/>
 </signal>
 <signal name="5V_S">
 <contactref element="U6" pad="16"/>

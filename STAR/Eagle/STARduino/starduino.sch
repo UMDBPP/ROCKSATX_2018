@@ -28976,13 +28976,6 @@ Source: RS Component / Phycomp</description>
 <pinref part="FB1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="I_SENSE" class="2">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA05/EIC/AIN5/SCOM0PAD1"/>
-<wire x1="314.96" y1="391.16" x2="347.98" y2="391.16" width="0.1524" layer="91"/>
-<label x="347.98" y="391.16" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="MISO" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PA12/I2C/EIC/SCOM2PAD0+/TC2"/>
@@ -28993,20 +28986,6 @@ Source: RS Component / Phycomp</description>
 <pinref part="J1" gate="G$1" pin="15"/>
 <wire x1="226.06" y1="190.5" x2="228.6" y2="190.5" width="0.1524" layer="91"/>
 <label x="228.6" y="190.5" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="TX1" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA18/EIC/SCOM1PAD2+/TC3"/>
-<wire x1="314.96" y1="358.14" x2="347.98" y2="358.14" width="0.1524" layer="91"/>
-<label x="347.98" y="358.14" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="RX1" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA19/EIC/SCOM1PAD3+/TC3"/>
-<wire x1="314.96" y1="355.6" x2="347.98" y2="355.6" width="0.1524" layer="91"/>
-<label x="347.98" y="355.6" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="NFAULT" class="0">
@@ -29156,20 +29135,6 @@ Source: RS Component / Phycomp</description>
 <label x="228.6" y="185.42" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PB22" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PB22/EIC/SCOM5PAD2"/>
-<wire x1="314.96" y1="317.5" x2="347.98" y2="317.5" width="0.1524" layer="91"/>
-<label x="347.98" y="317.5" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PB23" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PB23/EIC/SCOM5PAD3"/>
-<wire x1="314.96" y1="314.96" x2="347.98" y2="314.96" width="0.1524" layer="91"/>
-<label x="347.98" y="314.96" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="OS"/>
@@ -29189,32 +29154,11 @@ Source: RS Component / Phycomp</description>
 <junction x="43.18" y="269.24"/>
 </segment>
 </net>
-<net name="TX0" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA10/EIC/AIN18/SCOM2PAD2+/TC1"/>
-<wire x1="314.96" y1="378.46" x2="347.98" y2="378.46" width="0.1524" layer="91"/>
-<label x="347.98" y="378.46" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="RX0" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA11/EIC/AIN19/SCOM2PAD3+/TC1"/>
-<wire x1="314.96" y1="375.92" x2="347.98" y2="375.92" width="0.1524" layer="91"/>
-<label x="347.98" y="375.92" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="NSLEEP" class="0">
 <segment>
 <pinref part="U9" gate="A" pin="P14"/>
 <wire x1="477.52" y1="236.22" x2="482.6" y2="236.22" width="0.1524" layer="91"/>
 <label x="482.6" y="236.22" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="STEPFREQ" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA08/I2C/AIN16/SCOM2PAD0+/TC0"/>
-<wire x1="314.96" y1="383.54" x2="347.98" y2="383.54" width="0.1524" layer="91"/>
-<label x="347.98" y="383.54" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="NENBL" class="0">
@@ -29457,20 +29401,6 @@ Source: RS Component / Phycomp</description>
 <label x="358.14" y="251.46" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TX2" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA20/EIC/SCOM5PAD2+"/>
-<wire x1="314.96" y1="353.06" x2="347.98" y2="353.06" width="0.1524" layer="91"/>
-<label x="347.98" y="353.06" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="RX2" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA21/EIC/SCOM5PAD3+"/>
-<wire x1="314.96" y1="350.52" x2="347.98" y2="350.52" width="0.1524" layer="91"/>
-<label x="347.98" y="350.52" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="DEC0" class="0">
 <segment>
 <pinref part="U9" gate="A" pin="P15"/>
@@ -29483,27 +29413,6 @@ Source: RS Component / Phycomp</description>
 <pinref part="U9" gate="A" pin="P13"/>
 <wire x1="477.52" y1="233.68" x2="482.6" y2="233.68" width="0.1524" layer="91"/>
 <label x="482.6" y="233.68" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="LED_CTRL" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA09/I2C/EIC/AIN17/SCOM2PAD1+/TC0"/>
-<wire x1="314.96" y1="381" x2="347.98" y2="381" width="0.1524" layer="91"/>
-<label x="347.98" y="381" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SYNC" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA15/XOUT/EIC/SCOM2PAD3+/TC3"/>
-<wire x1="314.96" y1="365.76" x2="347.98" y2="365.76" width="0.1524" layer="91"/>
-<label x="347.98" y="365.76" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PI_KILL" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA16/I2C/EIC/SCOM1PAD0+/TC2"/>
-<wire x1="314.96" y1="363.22" x2="347.98" y2="363.22" width="0.1524" layer="91"/>
-<label x="347.98" y="363.22" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL_BUFF" class="0">
@@ -29530,13 +29439,6 @@ Source: RS Component / Phycomp</description>
 <pinref part="R7" gate="A" pin="1"/>
 </segment>
 </net>
-<net name="EN_28V" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA28/EIC"/>
-<wire x1="314.96" y1="335.28" x2="347.98" y2="335.28" width="0.1524" layer="91"/>
-<label x="347.98" y="335.28" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="V_SENSE" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PA02/EIC/AIN"/>
@@ -29551,20 +29453,6 @@ Source: RS Component / Phycomp</description>
 <wire x1="393.7" y1="353.06" x2="398.78" y2="353.06" width="0.1524" layer="91"/>
 <junction x="393.7" y="353.06"/>
 <label x="398.78" y="353.06" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="USB_D_P" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA25/EIC/SCOM3PAD3+/TC5"/>
-<wire x1="314.96" y1="340.36" x2="347.98" y2="340.36" width="0.1524" layer="91"/>
-<label x="347.98" y="340.36" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="USB_D_N" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA24/EIC/SCOM3PAD2+/TC5"/>
-<wire x1="314.96" y1="342.9" x2="347.98" y2="342.9" width="0.1524" layer="91"/>
-<label x="347.98" y="342.9" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V_S" class="0">
