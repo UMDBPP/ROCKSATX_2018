@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -958,7 +958,7 @@ MDSGC</text>
 <text x="47.9425" y="39.608125" size="1.27" layer="161" font="vector">SAMD21</text>
 <text x="56.35625" y="39.37" size="1.27" layer="161" font="vector">FDG8842</text>
 <text x="64.29375" y="41.513125" size="1.27" layer="161" font="vector">P82B75</text>
-<text x="25.320625" y="4.7625" size="1.27" layer="22" font="vector" rot="MR0">2018STARduino Rev. 1</text>
+<text x="25.320625" y="4.7625" size="1.27" layer="22" font="vector" rot="MR0">2018STARduino Rev. 2</text>
 <hole x="8.128" y="26.035" drill="2.1"/>
 <hole x="48.768" y="36.1315" drill="2.1"/>
 <hole x="57.4675" y="2.0955" drill="2.1"/>
@@ -10282,8 +10282,21 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="67.31" y="-3.81"/>
 <vertex x="67.31" y="46.99"/>
 </polygon>
-<wire x1="49.911" y1="6.72375" x2="49.911" y2="6.468375" width="0.3048" layer="1"/>
-<wire x1="49.911" y1="6.468375" x2="48.514" y2="5.071375" width="0.3048" layer="1"/>
+<wire x1="49.911" y1="6.72375" x2="49.911" y2="6.595375" width="0.3048" layer="1"/>
+<wire x1="49.911" y1="6.595375" x2="48.514" y2="5.071375" width="0.3048" layer="1"/>
+<via x="4.699" y="39.8145" extent="1-16" drill="0.3302"/>
+<via x="16.1925" y="40.005" extent="1-16" drill="0.3302"/>
+<via x="15.748" y="29.464" extent="1-16" drill="0.3302"/>
+<via x="3.4925" y="29.083" extent="1-16" drill="0.3302"/>
+<via x="4.953" y="19.1135" extent="1-16" drill="0.3302"/>
+<via x="10.16" y="16.383" extent="1-16" drill="0.3302"/>
+<via x="17.0815" y="13.335" extent="1-16" drill="0.3302"/>
+<via x="4.572" y="10.541" extent="1-16" drill="0.3302"/>
+<via x="11.557" y="6.604" extent="1-16" drill="0.3302"/>
+<via x="53.7845" y="17.5895" extent="1-16" drill="0.3302"/>
+<via x="52.2605" y="25.4" extent="1-16" drill="0.3302"/>
+<via x="56.3245" y="40.9575" extent="1-16" drill="0.3302"/>
+<via x="24.892" y="35.306" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="N$5">
 <contactref element="U2" pad="43"/>

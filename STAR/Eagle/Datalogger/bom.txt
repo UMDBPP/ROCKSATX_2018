@@ -1,0 +1,10 @@
+Partlist exported from C:/UMD/BPP/ROCKSAT X/2018/ROCKSATX_2018/STAR/Eagle/Datalogger/datalogger.sch at 7/8/2018 11:54
+
+Qty Value        Device       Package         Parts               Description                
+5   0.1uF        C-USC0603    C0603           C1, C3, C6, C7, C9  CAPACITOR, American symbol 
+5   10nF         C-USC0603    C0603           C2, C4, C5, C8, C10 CAPACITOR, American symbol 
+1   1M           R-US_R0603   R0603           R2                  RESISTOR, American symbol  
+1   J30J-25      J30J-25      ZKN-25          J1                                             
+1   MICRO_SD     MICRO_SD     MICRO_SD_HINGED U$1                                            
+1   SSL.3IN_SILK SSL.3IN_SILK SSL_SILK_.3IN   GND1                                           
+2   USB_A        USB_A        USB_A           U$2, U$3                                       
