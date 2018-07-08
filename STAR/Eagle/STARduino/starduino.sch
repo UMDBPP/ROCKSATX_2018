@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -28497,13 +28498,13 @@ Source: RS Component / Phycomp</description>
 <instance part="GND13" gate="1" x="467.36" y="340.36"/>
 <instance part="U5" gate="G$1" x="78.74" y="266.7"/>
 <instance part="B1" gate="G$1" x="33.02" y="269.24"/>
-<instance part="C14" gate="G$1" x="55.88" y="266.7"/>
+<instance part="C14" gate="G$1" x="55.88" y="264.16"/>
 <instance part="+3V314" gate="G$1" x="55.88" y="279.4" smashed="yes">
 <attribute name="VALUE" x="53.34" y="279.4" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND19" gate="1" x="55.88" y="256.54"/>
+<instance part="GND19" gate="1" x="55.88" y="254"/>
 <instance part="GND18" gate="1" x="22.86" y="256.54"/>
-<instance part="C17" gate="G$1" x="43.18" y="264.16"/>
+<instance part="C17" gate="G$1" x="43.18" y="261.62"/>
 <instance part="U7" gate="G$1" x="213.36" y="254"/>
 <instance part="+3V312" gate="G$1" x="160.02" y="281.94" smashed="yes">
 <attribute name="VALUE" x="157.48" y="281.94" size="1.778" layer="96" rot="R180"/>
@@ -28656,7 +28657,7 @@ Source: RS Component / Phycomp</description>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="276.86" x2="55.88" y2="271.78" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="VCC"/>
-<wire x1="55.88" y1="271.78" x2="55.88" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="271.78" x2="55.88" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="271.78" x2="63.5" y2="271.78" width="0.1524" layer="91"/>
 <junction x="55.88" y="271.78"/>
 </segment>
@@ -28885,14 +28886,15 @@ Source: RS Component / Phycomp</description>
 <junction x="467.36" y="345.44"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="261.62" x2="55.88" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="55.88" y1="261.62" x2="55.88" y2="259.08" width="0.1524" layer="91"/>
-<junction x="55.88" y="261.62"/>
+<wire x1="55.88" y1="259.08" x2="55.88" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="259.08" x2="55.88" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="256.54" x2="55.88" y2="256.54" width="0.1524" layer="91"/>
+<junction x="55.88" y="256.54"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
+<wire x1="55.88" y1="259.08" x2="63.5" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="259.08" x2="63.5" y2="261.62" width="0.1524" layer="91"/>
 <junction x="55.88" y="259.08"/>
 </segment>
 <segment>
@@ -29022,6 +29024,7 @@ Source: RS Component / Phycomp</description>
 <wire x1="35.56" y1="228.6" x2="33.02" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="228.6" x2="33.02" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="1"/>
+<junction x="33.02" y="223.52"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="CAT"/>
@@ -29316,7 +29319,7 @@ Source: RS Component / Phycomp</description>
 <segment>
 <pinref part="C17" gate="G$1" pin="1"/>
 <pinref part="U5" gate="G$1" pin="VBAT"/>
-<wire x1="43.18" y1="266.7" x2="43.18" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="264.16" x2="43.18" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="269.24" x2="63.5" y2="269.24" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="+"/>
 <wire x1="43.18" y1="269.24" x2="39.624" y2="269.24" width="0.1524" layer="91"/>
