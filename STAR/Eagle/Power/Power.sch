@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -6033,78 +6032,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="Power">
-<packages>
-<package name="7050">
-<smd name="P$1" x="2.55" y="0" dx="2.2" dy="2.7" layer="1"/>
-<smd name="P$2" x="-2.55" y="0" dx="2.2" dy="2.7" layer="1"/>
-<wire x1="-3.45" y1="3.45" x2="3.45" y2="3.45" width="0.127" layer="21"/>
-<wire x1="3.45" y1="3.45" x2="3.45" y2="-3.45" width="0.127" layer="21"/>
-<wire x1="3.45" y1="-3.45" x2="-3.45" y2="-3.45" width="0.127" layer="21"/>
-<wire x1="-3.45" y1="-3.45" x2="-3.45" y2="3.45" width="0.127" layer="21"/>
-<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="1365">
-<smd name="P$1" x="-5.25" y="0" dx="5" dy="4.5" layer="1" rot="R90"/>
-<smd name="P$2" x="5.25" y="0" dx="5" dy="4.5" layer="1" rot="R90"/>
-<wire x1="-6.4" y1="6.4" x2="6.4" y2="6.4" width="0.127" layer="21"/>
-<wire x1="6.4" y1="6.4" x2="6.4" y2="-6.4" width="0.127" layer="21"/>
-<wire x1="6.4" y1="-6.4" x2="-6.4" y2="-6.4" width="0.127" layer="21"/>
-<wire x1="-6.4" y1="-6.4" x2="-6.4" y2="6.4" width="0.127" layer="21"/>
-<text x="-7.62" y="7.62" size="1.27" layer="25">&gt;NAMES</text>
-<text x="-7.62" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="INDUCTOR">
-<wire x1="-5.08" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<pin name="P$1" x="-10.16" y="0" visible="off" length="short"/>
-<pin name="P$2" x="10.16" y="0" visible="off" length="short" rot="R180"/>
-<text x="-12.7" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-12.7" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="744314101" prefix="L">
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="7050">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="7443551370" prefix="L">
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1365">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Filtering">
 <packages>
 <package name="DFT7160">
@@ -6129,16 +6056,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="1050">
-<smd name="P$1" x="-3.825" y="0" dx="4" dy="3.85" layer="1" rot="R180"/>
-<smd name="P$2" x="3.825" y="0" dx="4" dy="3.85" layer="1" rot="R180"/>
-<wire x1="-5.1" y1="5.1" x2="5.1" y2="5.1" width="0.127" layer="21"/>
-<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.127" layer="21"/>
-<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.127" layer="21"/>
-<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="5.1" width="0.127" layer="21"/>
-<text x="-6.35" y="6.35" size="1.27" layer="25">&gt;NAME</text>
-<text x="-6.35" y="-7.62" size="1.27" layer="21">&gt;VALUE</text>
-</package>
 <package name="1410">
 <smd name="P$2" x="1.651" y="0" dx="2.032" dy="0.9906" layer="1" rot="R90"/>
 <smd name="P$3" x="-1.651" y="0" dx="2.032" dy="0.9906" layer="1" rot="R90"/>
@@ -6148,6 +6065,26 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-1.778" y1="-1.27" x2="1.778" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="1.778" y1="-1.27" x2="1.778" y2="1.27" width="0.127" layer="21"/>
 <wire x1="1.778" y1="1.27" x2="-1.778" y2="1.27" width="0.127" layer="21"/>
+</package>
+<package name="1365">
+<smd name="P$1" x="-2.25" y="0" dx="5.7" dy="1.7" layer="1" rot="R90"/>
+<smd name="P$2" x="2.25" y="0" dx="5.7" dy="1.7" layer="1" rot="R90"/>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.127" layer="21"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.127" layer="21"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.127" layer="21"/>
+<text x="-7.62" y="7.62" size="1.27" layer="25">&gt;NAMES</text>
+<text x="-7.62" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="7050">
+<smd name="P$1" x="4.75" y="0" dx="4.1" dy="3.5" layer="1"/>
+<smd name="P$2" x="-4.75" y="0" dx="4.1" dy="3.5" layer="1"/>
+<wire x1="-5.5" y1="5" x2="5.5" y2="5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="5" x2="5.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="-5" x2="-5.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="-5" x2="-5.5" y2="5" width="0.127" layer="21"/>
+<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -6219,22 +6156,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="744325550" prefix="L">
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1050">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1410J0500404MXTE03" prefix="C">
 <gates>
 <gate name="G$1" symbol="4PRONG_CAP" x="0" y="0"/>
@@ -6246,6 +6167,38 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="P$2" pad="P$3"/>
 <connect gate="G$1" pin="P$3" pad="P$4"/>
 <connect gate="G$1" pin="P$4" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7443551370" prefix="L">
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1365">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="744314101" prefix="L">
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7050">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6409,8 +6362,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C14" library="resistor" deviceset="C-US" device="C0603" value="10 uF"/>
 <part name="C11" library="resistor" deviceset="C-US" device="C0603" value=".18 uF"/>
 <part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="75.4k"/>
-<part name="L2" library="Filtering" deviceset="744325550" device="" value="5.5u"/>
-<part name="L3" library="Power" deviceset="7443551370" device="" value="3.7u"/>
+<part name="L2" library="Filtering" deviceset="744314101" device="" value="6.8u"/>
+<part name="L3" library="Filtering" deviceset="7443551370" device="" value="30u"/>
 <part name="C7" library="resistor" deviceset="C-US" device="C0603" value=".1 uF"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
@@ -6429,7 +6382,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C13" library="resistor" deviceset="C-US" device="C0603" value="10 uF"/>
 <part name="C10" library="resistor" deviceset="C-US" device="C0603" value=".18 uF"/>
 <part name="R4" library="resistor" deviceset="R-US_" device="R0603" value="199.5k"/>
-<part name="L1" library="Power" deviceset="744314101" device="" value="9.7u"/>
+<part name="L1" library="Filtering" deviceset="744314101" device="" value="30u"/>
 <part name="U$1" library="Filtering" deviceset="DFT7160-105B" device=""/>
 <part name="L4" library="Filtering" deviceset="744029000068" device=""/>
 <part name="C17" library="resistor" deviceset="C-US" device="C0603" value="1nF"/>

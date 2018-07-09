@@ -1,12 +1,17 @@
 %% Parameter calculator for TI LMR 16020 switching regulator
-% Last modified: L. Renegar 8/JUL/2018
+% Last modified: B. Weinberg 8/JUL/2018
 % Reference: https://www.ti.com/product/LMR16020
 
+
+% CBEs:
+    % 3.3 V: 0.25 A
+    % 5 V  : 1.75 A
+    % 12 V : 0.75 A
 V_in = 28; % Volts
 V_out = 5; % Volts 
-Vin_Max = 35; % Volts
-I_out = 0.8; % Amps
-L = 15e-6; % H
+Vin_Max = 34; % Volts
+I_out = 1.75; % Amps
+L = 10e-6; % H
 
 max_overshoot_fraction = 0.05;
 max_undershoot_fraction = 0.05;
@@ -24,7 +29,7 @@ K_L = 0.4;
 L_min = ((Vin_Max - V_out) / (I_out * K_L)) * (V_out / (Vin_Max * f_sw)); % H; datasheet eqn. 9
 
 if L < L_min
-    warning("Inductance too low.");
+    warning('Inductance too low.');
 end % if
 
 delta_I_L = V_out*(Vin_Max - V_out)./(Vin_Max*L*f_sw); % A; datasheet eqn. 8
