@@ -1,19 +1,27 @@
-Partlist exported from C:/UMD/BPP/ROCKSAT X/2018/ROCKSATX_2018/STAR/Eagle/BiasGenerator/bias_generator.sch at 7/8/2018 15:24
+Partlist exported from D:/Joseph/Documents/School/College/Clubs/RockSatX/2017-2018/GIT/ROCKSATX_2018/STAR/Eagle/BiasGenerator/bias_generator.sch at 7/8/2018 3:00 PM
 
 Qty Value             Device            Package       Parts           Description                                
-2   .1uF              C-USC0603         C0603         C_GND, C_VCC    CAPACITOR, American symbol                 
+2   .1uF              C-USC0603         C0603         C_GND, C_VCC    CAPACITOR, American symbol
+CL10B104KB8NNNC          
 1   1.5k              R-US_R2512        R2512         R_LTOUT         RESISTOR, American symbol                  
+35221K5FT
 1   10uF              CAPACITOR2-J-LEAD 2J-LEAD       C_LTOUT                                                    
+CKG57NX7R2A106M500JH
 1   1M                R-US_R0603        R0603         R_LAD1          RESISTOR, American symbol                  
+ERJ-3GEYJ105V
 2   1uF               CAPACITORC0603    0603          C_LTIN, C_LTREQ                                            
-1   20k               R-US_R0603        R0603         R_POT1          RESISTOR, American symbol                  
-1   25k               R-US_R0603        R0603         R_DIV2          RESISTOR, American symbol                  
+CL10A105KB8NNNC
+2   20k               R-US_R0603        R0603         R_POT1          RESISTOR, American symbol                  
+RMCF0603JT20K0
 1   3269W-1-503LF     3269W-1-503LF     POTENTIOMETER R_POT2          Bourns Inc 50k Potentiometer 3269W-1-503LF 
 1   33k               R-US_R0603        R0603         R_LAD2          RESISTOR, American symbol                  
 1   4.7pF             CAPACITORC0603    0603          C_LAD                                                      
-1   500k              R-US_R0603        R0603         R_DIV1          RESISTOR, American symbol                  
+06032U4R7BAT2A
+1   402k              R-US_R0603        R0603         R_DIV1          RESISTOR, American symbol                  
+ERJ-3EKF4023V
 1   52.6              R-US_R0603        R0603         R_LAD3          RESISTOR, American symbol                  
 2   82nH              L-US              C0603         L_VCC, L_VOUT   INDUCTOR, American symbol                  
+AIML-0603-82NK-T
 1   AMC1311-Q1        AMC1311-Q1        SOIC8         ISO                                                        
 1   ASPI-4020S-100M-T ASPI-4020S-100M-T 4MM           L_LT                                                       
 1   DFT7160-105B      DFT7160-105B      DFT7160       CHOKE                                                      
