@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -6585,6 +6586,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <pinref part="U$6" gate="G$1" pin="P$2"/>
 </segment>
+<segment>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+<pinref part="U$7" gate="G$1" pin="P$2"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -6879,7 +6884,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <label x="238.76" y="256.54" size="1.016" layer="95" xref="yes"/>
 <wire x1="233.68" y1="256.54" x2="238.76" y2="256.54" width="0.1524" layer="91"/>
-<label x="223.52" y="256.54" size="1.016" layer="95" xref="yes"/>
 <pinref part="U$3" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
@@ -6896,7 +6900,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <label x="261.62" y="215.9" size="1.016" layer="95" xref="yes"/>
 <wire x1="256.54" y1="215.9" x2="261.62" y2="215.9" width="0.1524" layer="91"/>
-<label x="261.62" y="208.28" size="1.016" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="P$1"/>
 <wire x1="256.54" y1="220.98" x2="256.54" y2="215.9" width="0.1524" layer="91"/>
 </segment>
@@ -6991,6 +6994,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="259.08" y1="208.28" x2="261.62" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="208.28" x2="256.54" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="208.28" x2="256.54" y2="205.74" width="0.1524" layer="91"/>
+<label x="261.62" y="208.28" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="17"/>
@@ -7016,6 +7020,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="J1" gate="G$1" pin="22"/>
 <wire x1="335.28" y1="210.82" x2="337.82" y2="210.82" width="0.1524" layer="91" style="longdash"/>
 <label x="337.82" y="210.82" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$4"/>
+<wire x1="220.98" y1="254" x2="223.52" y2="254" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="254" x2="223.52" y2="256.54" width="0.1524" layer="91"/>
+<label x="223.52" y="256.54" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TE_UFILT" class="0">
@@ -7091,13 +7101,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="J1" gate="G$1" pin="12"/>
 <wire x1="325.12" y1="198.12" x2="322.58" y2="198.12" width="0.1524" layer="91"/>
 <label x="322.58" y="198.12" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P$4"/>
-<wire x1="220.98" y1="254" x2="223.52" y2="254" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="254" x2="223.52" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
