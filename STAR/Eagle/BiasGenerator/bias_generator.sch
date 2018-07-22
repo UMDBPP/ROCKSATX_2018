@@ -7256,14 +7256,14 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
 <wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
 <wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="2" x="-0.635" y="-5.45" dx="0.6" dy="1.8" layer="1"/>
+<smd name="7" x="-0.635" y="5.45" dx="0.6" dy="1.8" layer="1"/>
+<smd name="1" x="-1.905" y="-5.45" dx="0.6" dy="1.8" layer="1"/>
+<smd name="3" x="0.635" y="-5.45" dx="0.6" dy="1.8" layer="1"/>
+<smd name="4" x="1.905" y="-5.45" dx="0.6" dy="1.8" layer="1"/>
+<smd name="8" x="-1.905" y="5.45" dx="0.6" dy="1.8" layer="1"/>
+<smd name="6" x="0.635" y="5.45" dx="0.6" dy="1.8" layer="1"/>
+<smd name="5" x="1.905" y="5.45" dx="0.6" dy="1.8" layer="1"/>
 <text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -7283,12 +7283,12 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0" x2="0" y2="2.54" width="0.254" layer="94" curve="-90"/>
 <wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<pin name="P$1" x="0" y="5.08" visible="off" length="short" rot="R270"/>
-<pin name="P$2" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<pin name="L1IN" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="L1OUT" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
 <text x="-7.62" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="P$3" x="2.54" y="5.08" visible="off" length="middle" rot="R270"/>
-<pin name="P$4" x="2.54" y="-5.08" visible="off" length="middle" rot="R90"/>
+<pin name="L2IN" x="2.54" y="5.08" visible="off" length="middle" rot="R270"/>
+<pin name="L2OUT" x="2.54" y="-5.08" visible="off" length="middle" rot="R90"/>
 </symbol>
 <symbol name="POTENTIOMETER">
 <wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
@@ -7347,10 +7347,10 @@ Source: AVX .. aphvc.pdf</description>
 <devices>
 <device name="" package="DFT7160">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$4"/>
-<connect gate="G$1" pin="P$3" pad="P$2"/>
-<connect gate="G$1" pin="P$4" pad="P$3"/>
+<connect gate="G$1" pin="L1IN" pad="P$1"/>
+<connect gate="G$1" pin="L1OUT" pad="P$4"/>
+<connect gate="G$1" pin="L2IN" pad="P$2"/>
+<connect gate="G$1" pin="L2OUT" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7461,8 +7461,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L_LT" library="AR_passives" deviceset="ASPI-4020S-100M-T" device=""/>
 <part name="REG" library="Filtering" deviceset="NCV4274ADT50RKG" device=""/>
-<part name="R_DIV1" library="resistor" deviceset="R-US_" device="R0603" value="500k"/>
-<part name="R_DIV2" library="resistor" deviceset="R-US_" device="R0603" value="25k"/>
+<part name="R_DIV1" library="resistor" deviceset="R-US_" device="R0603" value="402k"/>
+<part name="R_DIV2" library="resistor" deviceset="R-US_" device="R0603" value="12k"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -7553,7 +7553,7 @@ Source: AVX .. aphvc.pdf</description>
 <nets>
 <net name="VCC" class="0">
 <segment>
-<pinref part="CHOKE" gate="G$1" pin="P$3"/>
+<pinref part="CHOKE" gate="G$1" pin="L2IN"/>
 <wire x1="17.78" y1="185.42" x2="15.24" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="185.42" x2="12.7" y2="185.42" width="0.1524" layer="91"/>
 <label x="12.7" y="185.42" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -7626,6 +7626,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="139.7" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="152.4" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="ISO" gate="G$1" pin="P$3"/>
+<wire x1="139.7" y1="157.48" x2="129.54" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="157.48" x2="124.46" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="157.48" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
+<junction x="124.46" y="152.4"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -7633,7 +7638,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="116.84" y1="180.34" x2="116.84" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CHOKE" gate="G$1" pin="P$2"/>
+<pinref part="CHOKE" gate="G$1" pin="L1OUT"/>
 <wire x1="27.94" y1="182.88" x2="30.48" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="182.88" x2="30.48" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
@@ -7764,7 +7769,7 @@ Source: AVX .. aphvc.pdf</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="L_VCC" gate="G$1" pin="1"/>
-<pinref part="CHOKE" gate="G$1" pin="P$4"/>
+<pinref part="CHOKE" gate="G$1" pin="L2OUT"/>
 <wire x1="33.02" y1="185.42" x2="30.48" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="185.42" x2="27.94" y2="185.42" width="0.1524" layer="91"/>
 </segment>
@@ -7837,7 +7842,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="GND_IN" class="0">
 <segment>
-<pinref part="CHOKE" gate="G$1" pin="P$1"/>
+<pinref part="CHOKE" gate="G$1" pin="L1IN"/>
 <wire x1="17.78" y1="182.88" x2="12.7" y2="182.88" width="0.1524" layer="91"/>
 <label x="12.7" y="182.88" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
