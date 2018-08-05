@@ -17,41 +17,41 @@
 #include "src/Sensors/HoneywellPressure.h"
 #include "src/CCSDS/CCSDS.h"
 #include "src/CCSDS/ccsds_utilities.h"
-#include "EZGPIO.h"
+//#include "EZGPIO.h"
 
 /* Include project utilties */
 #include "Utility.h"
 
 /* Define Parameters */
-#define DESIRED_CYCLE_HZ 30
+#define DESIRED_CYCLE_HZ 40
 
 /* Define aliases */
 // Software Reset Register
-#define RESET_REGISTER *(unsigned int volatile *)0xE000ED0C
+//#define RESET_REGISTER *(unsigned int volatile *)0xE000ED0C
 
 // Serials
 #define SERIAL_DEBUG Serial // FIXME
 
 // Pins
-#define PIN_SD_CS 22 // FIXME
-#define PIN_LED 9 // FIXME
-#define PIN_BIAS 28 // FIXME
-#define PIN_CUTOFF 14 // FIXME
-#define PIN_PIKILL 16 // FIXME
-#define PIN_EXTKILL 13 // FIXME
-#define PIN_FLASH_CS 13 // FIXME
+#define PIN_SD_CS 9 // FIXME
+//#define PIN_LED 9 // FIXME
+//#define PIN_BIAS 28 // FIXME
+//#define PIN_CUTOFF 14 // FIXME
+//#define PIN_PIKILL 16 // FIXME
+//#define PIN_EXTKILL 13 // FIXME
+//#define PIN_FLASH_CS 13 // FIXME
 
 // Filenames1
-#define FILENAME_INTERFACE_LOG "intf_log.txt"
-#define FILENAME_SENSOR_LOG "sens_log.txt"
-#define FILENAME_SYNC_LOG "sync_log.txt"
-#define FILENAME_CMDSEQ "cmds.cmd"
+//#define FILENAME_INTERFACE_LOG "intf_log.txt"
+//#define FILENAME_SENSOR_LOG "sens_log.txt"
+//#define FILENAME_SYNC_LOG "sync_log.txt"
+//#define FILENAME_CMDSEQ "cmds.cmd"
 
 // Errors
-#define ERROR_SDLOAD_OPENFILE -1
-#define ERROR_SDLOAD_CMDCHKSUM -3
+//#define ERROR_SDLOAD_OPENFILE -1
+//#define ERROR_SDLOAD_CMDCHKSUM -3
 
 // Status
-#define STATUS_INITALIZED 1
+//#define STATUS_INITALIZED 1
 
 #endif _starduino_h_
