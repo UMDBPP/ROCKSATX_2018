@@ -39,7 +39,7 @@ void setup() {
   SERIAL_DEBUG.println("Began");
   
   // Initalize ADXL375 accel
-  //accel.begin();   // Not all sensors require begin() functions
+  accel.begin();   // Not all sensors require begin() functions
   
   // Initalize MAX31725 tempSensor
   
@@ -52,7 +52,7 @@ void setup() {
   // Initalize BMX055_GYRO bmxGyro
   
   // Initalize BMX055_MAG bmxMag
-  //bmxMag.begin(); // Not all sensors require begin() functions
+  bmxMag.begin(); // Not all sensors require begin() functions
 
   // Initalize HoneywellPressureI2C pres_sens
   
@@ -202,6 +202,40 @@ void loop() {
       // if the file isn't open, pop up an error:
       else {
         SERIAL_DEBUG.println("error opening datalog.txt");
+        Serial.print(cycleStartTime);
+        Serial.print(",");
+        Serial.print(adxlAccelerometerXReading);
+        Serial.print(",");
+        Serial.print(adxlAccelerometerYReading);
+        Serial.print(",");
+        Serial.print(adxlAccelerometerZReading);
+        Serial.print(",");
+        Serial.print(maximTemperatureReading);
+        Serial.print(",");
+        Serial.print(bmxAccelerometerXReading);
+        Serial.print(",");
+        Serial.print(bmxAccelerometerYReading);
+        Serial.print(",");
+        Serial.print(bmxAccelerometerZReading);
+        Serial.print(",");
+        Serial.print(bmxAccelerometerTemperatureReading);
+        Serial.print(",");
+        Serial.print(bmxGyroscopeXReading);
+        Serial.print(",");
+        Serial.print(bmxGyroscopeYReading);
+        Serial.print(",");
+        Serial.print(bmxGyroscopeZReading);
+        Serial.print(",");
+        Serial.print(bmxMagnetometerXReading);
+        Serial.print(",");
+        Serial.print(bmxMagnetometerYReading);
+        Serial.print(",");
+        Serial.print(bmxMagnetometerZReading);
+        Serial.print(",");
+        Serial.print(bmxMagnetometerHallReading);
+        Serial.print(",");
+        Serial.print(biasVoltage);
+        Serial.println();
       }
   }
 
