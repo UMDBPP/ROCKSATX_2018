@@ -24,6 +24,7 @@
 
 /* Define Parameters */
 #define DESIRED_CYCLE_HZ 40
+#define FILE_CLOSE_TIME_SEC 1200 //Time for when the file should close (mission over)
 
 /* Define aliases */
 // Software Reset Register

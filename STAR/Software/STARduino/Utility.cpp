@@ -24,17 +24,16 @@ uint32_t get_MET(){
 
 bool time_for_cycle(uint32_t last_cycle_time){
 /*
- * Prints a datestamp to a file.
+ * checks if 
  * 
  * Inputs: 
- * write_file - file to write to
- * time_millis - time to write
+ * last_cycle_time - last time the cycle began
  * 
  * Output:
- * none
+ * Boolean
  * 
  * Return:
- * none
+ * Boolean indicating if it is time for the next cycle to start
  */
  return (get_MET() - last_cycle_time) > (1000/DESIRED_CYCLE_HZ);
 }
