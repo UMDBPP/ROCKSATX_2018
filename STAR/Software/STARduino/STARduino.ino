@@ -33,6 +33,12 @@ void setup() {
      Return:
        none
   */
+
+  
+  pinMode(STEP_PIN, OUTPUT);
+tcConfigure(sampleRate); //configure the timer to run at <sampleRate>Hertz
+tcStartCounter(); //starts the timer
+  
   SERIAL_DEBUG.begin(9600);
   Wire.begin();
 
@@ -59,9 +65,6 @@ void setup() {
   // Initalize CFF_ChipCap2 chip
 
   // Initialize Motor Timer
-  pinMode(STEP_PIN, OUTPUT);
-tcConfigure(sampleRate); //configure the timer to run at <sampleRate>Hertz
-tcStartCounter(); //starts the timer
 
   // Initialize Bias Reader
   pinMode(BIAS_PIN, INPUT);
@@ -84,7 +87,7 @@ tcStartCounter(); //starts the timer
   SERIAL_DEBUG.print("Filename: "); SERIAL_DEBUG.println(filename);
 
   /* open the file to write to it */
-  //dataFile = SD.open(filename, FILE_WRITE);
+  dataFile = SD.open(filename, FILE_WRITE);
 
   if (dataFile) {
     /* Print file header */
@@ -96,7 +99,7 @@ tcStartCounter(); //starts the timer
 
 }
 
-void loop() {
+void loop() {//Serial.println("Working");
 
   if (time_for_cycle(cycleStartTime))
   {
@@ -202,13 +205,16 @@ void loop() {
       dataFile.print(",");
       dataFile.print(biasVoltage);
       dataFile.println();
+      dataFile.flush();
       //dataFile.close(); not nessisary
+      //Serial.println("Working");
 
     }
     // if the file isn't open, pop up an error:
     else {
       SERIAL_DEBUG.println("error opening datalog.txt");
-      Serial.print(cycleStartTime);
+      
+    Serial.print(cycleStartTime);
       Serial.print(",");
       Serial.print(adxlAccelerometerXReading);
       Serial.print(",");
